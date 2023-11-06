@@ -1,0 +1,262 @@
+class videoPackFuncAPI
+{
+    GetStandardPacks(curr,lc,done)
+    {
+        cy.fixture('videoPack').as('vp');
+        cy.get('@vp').then(loc=>
+        {
+            cy.request(`${Cypress.env('baseurl')}/microservices/contentpacks/managecontentpacks.asmx/GetStandardPacks?currency=${curr}&langcode=${lc}`).as('comments')
+            cy.get('@comments').then( { timeout: 15000 },(response) => {
+                expect(response.body.success).to.equal(true);
+            
+                //expect(response.body.data[0].packageId).to.equal(loc.HDStandard[curr].five.packageId);
+                expect(response.body.data[0].packageName).to.equal(loc.HDStandard[lc].packageName);
+                expect(response.body.data[0].packageNameInEnglish).to.equal(loc.HDStandard.en.packageName);
+                expect(response.body.data[0].packageDescription).to.equal(loc.HDStandard[lc].packageDescription);
+                expect(response.body.data[0].duration).to.equal(loc.HDStandard.duration);
+                expect(response.body.data[0].price).to.equal(loc.HDStandard[curr].five.price);
+                expect(response.body.data[0].pricePerDownload).to.equal(loc.HDStandard[curr].five.pricePerDownload);
+                expect(response.body.data[0].size).to.equal(loc.HDStandard[curr].five.size);
+                expect(response.body.data[0].savings).to.equal(loc.HDStandard[curr].five.savings);
+                expect(response.body.data[0].savingsInPercentage).to.equal(loc.HDStandard[curr].five.savingsInPercentage);
+                expect(response.body.data[0].orderBy).to.equal(loc.HDStandard.orderBy);
+                expect(response.body.data[0].productType).to.equal(loc.HDStandard.productType);
+
+                //expect(response.body.data[1].packageId).to.equal(loc.HDStandard[curr].ten.packageId);
+                expect(response.body.data[1].packageName).to.equal(loc.HDStandard[lc].packageName);
+                expect(response.body.data[1].packageNameInEnglish).to.equal(loc.HDStandard.en.packageName);
+                expect(response.body.data[1].packageDescription).to.equal(loc.HDStandard[lc].packageDescription);
+                expect(response.body.data[1].duration).to.equal(loc.HDStandard.duration);
+                expect(response.body.data[1].price).to.equal(loc.HDStandard[curr].ten.price);
+                expect(response.body.data[1].pricePerDownload).to.equal(loc.HDStandard[curr].ten.pricePerDownload);
+                expect(response.body.data[1].size).to.equal(loc.HDStandard[curr].ten.size);
+                expect(response.body.data[1].savings).to.equal(loc.HDStandard[curr].ten.savings);
+                expect(response.body.data[1].savingsInPercentage).to.equal(loc.HDStandard[curr].ten.savingsInPercentage);
+                expect(response.body.data[1].orderBy).to.equal(loc.HDStandard.orderBy);
+                expect(response.body.data[1].productType).to.equal(loc.HDStandard.productType);
+
+                //expect(response.body.data[2].packageId).to.equal(loc.HDStandard[curr].twentyFive.packageId);
+                expect(response.body.data[2].packageName).to.equal(loc.HDStandard[lc].packageName);
+                expect(response.body.data[2].packageNameInEnglish).to.equal(loc.HDStandard.en.packageName);
+                expect(response.body.data[2].packageDescription).to.equal(loc.HDStandard[lc].packageDescription);
+                expect(response.body.data[2].duration).to.equal(loc.HDStandard.duration);
+                expect(response.body.data[2].price).to.equal(loc.HDStandard[curr].twentyFive.price);
+                expect(response.body.data[2].pricePerDownload).to.equal(loc.HDStandard[curr].twentyFive.pricePerDownload);
+                expect(response.body.data[2].size).to.equal(loc.HDStandard[curr].twentyFive.size);
+                expect(response.body.data[2].savings).to.equal(loc.HDStandard[curr].twentyFive.savings);
+                expect(response.body.data[2].savingsInPercentage).to.equal(loc.HDStandard[curr].twentyFive.savingsInPercentage);
+                expect(response.body.data[2].orderBy).to.equal(loc.HDStandard.orderBy);
+                expect(response.body.data[2].productType).to.equal(loc.HDStandard.productType);
+
+                //expect(response.body.data[3].packageId).to.equal(loc.HDEnhanced[curr].five.packageId);
+                expect(response.body.data[3].packageName).to.equal(loc.HDEnhanced[lc].packageName);
+                expect(response.body.data[3].packageNameInEnglish).to.equal(loc.HDEnhanced.en.packageName);
+                expect(response.body.data[3].packageDescription).to.equal(loc.HDEnhanced[lc].packageDescription);
+                expect(response.body.data[3].duration).to.equal(loc.HDEnhanced.duration);
+                expect(response.body.data[3].price).to.equal(loc.HDEnhanced[curr].five.price);
+                expect(response.body.data[3].pricePerDownload).to.equal(loc.HDEnhanced[curr].five.pricePerDownload);
+                expect(response.body.data[3].size).to.equal(loc.HDEnhanced[curr].five.size);
+                expect(response.body.data[3].savings).to.equal(loc.HDEnhanced[curr].five.savings);
+                expect(response.body.data[3].savingsInPercentage).to.equal(loc.HDEnhanced[curr].five.savingsInPercentage);
+                expect(response.body.data[3].orderBy).to.equal(loc.HDEnhanced.orderBy);
+                expect(response.body.data[3].productType).to.equal(loc.HDEnhanced.productType);
+
+                //expect(response.body.data[4].packageId).to.equal(loc.HDEnhanced[curr].ten.packageId);
+                expect(response.body.data[4].packageName).to.equal(loc.HDEnhanced[lc].packageName);
+                expect(response.body.data[4].packageNameInEnglish).to.equal(loc.HDEnhanced.en.packageName);
+                expect(response.body.data[4].packageDescription).to.equal(loc.HDEnhanced[lc].packageDescription);
+                expect(response.body.data[4].duration).to.equal(loc.HDEnhanced.duration);
+                expect(response.body.data[4].price).to.equal(loc.HDEnhanced[curr].ten.price);
+                expect(response.body.data[4].pricePerDownload).to.equal(loc.HDEnhanced[curr].ten.pricePerDownload);
+                expect(response.body.data[4].size).to.equal(loc.HDEnhanced[curr].ten.size);
+                expect(response.body.data[4].savings).to.equal(loc.HDEnhanced[curr].ten.savings);
+                expect(response.body.data[4].savingsInPercentage).to.equal(loc.HDEnhanced[curr].ten.savingsInPercentage);
+                expect(response.body.data[4].orderBy).to.equal(loc.HDEnhanced.orderBy);
+                expect(response.body.data[4].productType).to.equal(loc.HDEnhanced.productType);
+
+                //expect(response.body.data[5].packageId).to.equal(loc.HDEnhanced[curr].twentyFive.packageId);
+                expect(response.body.data[5].packageName).to.equal(loc.HDEnhanced[lc].packageName);
+                expect(response.body.data[5].packageNameInEnglish).to.equal(loc.HDEnhanced.en.packageName);
+                expect(response.body.data[5].packageDescription).to.equal(loc.HDEnhanced[lc].packageDescription);
+                expect(response.body.data[5].duration).to.equal(loc.HDEnhanced.duration);
+                expect(response.body.data[5].price).to.equal(loc.HDEnhanced[curr].twentyFive.price);
+                expect(response.body.data[5].pricePerDownload).to.equal(loc.HDEnhanced[curr].twentyFive.pricePerDownload);
+                expect(response.body.data[5].size).to.equal(loc.HDEnhanced[curr].twentyFive.size);
+                expect(response.body.data[5].savings).to.equal(loc.HDEnhanced[curr].twentyFive.savings);
+                expect(response.body.data[5].savingsInPercentage).to.equal(loc.HDEnhanced[curr].twentyFive.savingsInPercentage);
+                expect(response.body.data[5].orderBy).to.equal(loc.HDEnhanced.orderBy);
+                expect(response.body.data[5].productType).to.equal(loc.HDEnhanced.productType);
+
+                //expect(response.body.data[6].packageId).to.equal(loc.HDRoyaltyFree[curr].five.packageId);
+                expect(response.body.data[6].packageName).to.equal(loc.HDRoyaltyFree[lc].packageName);
+                expect(response.body.data[6].packageNameInEnglish).to.equal(loc.HDRoyaltyFree.en.packageName);
+                expect(response.body.data[6].packageDescription).to.equal(loc.HDRoyaltyFree[lc].packageDescription);
+                expect(response.body.data[6].duration).to.equal(loc.HDRoyaltyFree.duration);
+                expect(response.body.data[6].price).to.equal(loc.HDRoyaltyFree[curr].five.price);
+                expect(response.body.data[6].pricePerDownload).to.equal(loc.HDRoyaltyFree[curr].five.pricePerDownload);
+                expect(response.body.data[6].size).to.equal(loc.HDRoyaltyFree[curr].five.size);
+                expect(response.body.data[6].savings).to.equal(loc.HDRoyaltyFree[curr].five.savings);
+                expect(response.body.data[6].savingsInPercentage).to.equal(loc.HDRoyaltyFree[curr].five.savingsInPercentage);
+                expect(response.body.data[6].orderBy).to.equal(loc.HDRoyaltyFree.orderBy);
+                expect(response.body.data[6].productType).to.equal(loc.HDRoyaltyFree.productType);
+
+                //expect(response.body.data[7].packageId).to.equal(loc.HDRoyaltyFree[curr].ten.packageId);
+                expect(response.body.data[7].packageName).to.equal(loc.HDRoyaltyFree[lc].packageName);
+                expect(response.body.data[7].packageNameInEnglish).to.equal(loc.HDRoyaltyFree.en.packageName);
+                expect(response.body.data[7].packageDescription).to.equal(loc.HDRoyaltyFree[lc].packageDescription);
+                expect(response.body.data[7].duration).to.equal(loc.HDRoyaltyFree.duration);
+                expect(response.body.data[7].price).to.equal(loc.HDRoyaltyFree[curr].ten.price);
+                expect(response.body.data[7].pricePerDownload).to.equal(loc.HDRoyaltyFree[curr].ten.pricePerDownload);
+                expect(response.body.data[7].size).to.equal(loc.HDRoyaltyFree[curr].ten.size);
+                expect(response.body.data[7].savings).to.equal(loc.HDRoyaltyFree[curr].ten.savings);
+                expect(response.body.data[7].savingsInPercentage).to.equal(loc.HDRoyaltyFree[curr].ten.savingsInPercentage);
+                expect(response.body.data[7].orderBy).to.equal(loc.HDRoyaltyFree.orderBy);
+                expect(response.body.data[7].productType).to.equal(loc.HDRoyaltyFree.productType);
+
+                //expect(response.body.data[8].packageId).to.equal(loc.HDRoyaltyFree[curr].twentyFive.packageId);
+                expect(response.body.data[8].packageName).to.equal(loc.HDRoyaltyFree[lc].packageName);
+                expect(response.body.data[8].packageNameInEnglish).to.equal(loc.HDRoyaltyFree.en.packageName);
+                expect(response.body.data[8].packageDescription).to.equal(loc.HDRoyaltyFree[lc].packageDescription);
+                expect(response.body.data[8].duration).to.equal(loc.HDRoyaltyFree.duration);
+                expect(response.body.data[8].price).to.equal(loc.HDRoyaltyFree[curr].twentyFive.price);
+                expect(response.body.data[8].pricePerDownload).to.equal(loc.HDRoyaltyFree[curr].twentyFive.pricePerDownload);
+                expect(response.body.data[8].size).to.equal(loc.HDRoyaltyFree[curr].twentyFive.size);
+                expect(response.body.data[8].savings).to.equal(loc.HDRoyaltyFree[curr].twentyFive.savings);
+                expect(response.body.data[8].savingsInPercentage).to.equal(loc.HDRoyaltyFree[curr].twentyFive.savingsInPercentage);
+                expect(response.body.data[8].orderBy).to.equal(loc.HDRoyaltyFree.orderBy);
+                expect(response.body.data[8].productType).to.equal(loc.HDRoyaltyFree.productType);
+
+                //expect(response.body.data[9].packageId).to.equal(loc.FourKStandard[curr].five.packageId);
+                expect(response.body.data[9].packageName).to.equal(loc.FourKStandard[lc].packageName);
+                expect(response.body.data[9].packageNameInEnglish).to.equal(loc.FourKStandard.en.packageName);
+                expect(response.body.data[9].packageDescription).to.equal(loc.FourKStandard[lc].packageDescription);
+                expect(response.body.data[9].duration).to.equal(loc.FourKStandard.duration);
+                expect(response.body.data[9].price).to.equal(loc.FourKStandard[curr].five.price);
+                expect(response.body.data[9].pricePerDownload).to.equal(loc.FourKStandard[curr].five.pricePerDownload);
+                expect(response.body.data[9].size).to.equal(loc.FourKStandard[curr].five.size);
+                expect(response.body.data[9].savings).to.equal(loc.FourKStandard[curr].five.savings);
+                expect(response.body.data[9].savingsInPercentage).to.equal(loc.FourKStandard[curr].five.savingsInPercentage);
+                expect(response.body.data[9].orderBy).to.equal(loc.FourKStandard.orderBy);
+                expect(response.body.data[9].productType).to.equal(loc.FourKStandard.productType);
+
+                //expect(response.body.data[10].packageId).to.equal(loc.FourKStandard[curr].ten.packageId);
+                expect(response.body.data[10].packageName).to.equal(loc.FourKStandard[lc].packageName);
+                expect(response.body.data[10].packageNameInEnglish).to.equal(loc.FourKStandard.en.packageName);
+                expect(response.body.data[10].packageDescription).to.equal(loc.FourKStandard[lc].packageDescription);
+                expect(response.body.data[10].duration).to.equal(loc.FourKStandard.duration);
+                expect(response.body.data[10].price).to.equal(loc.FourKStandard[curr].ten.price);
+                expect(response.body.data[10].pricePerDownload).to.equal(loc.FourKStandard[curr].ten.pricePerDownload);
+                expect(response.body.data[10].size).to.equal(loc.FourKStandard[curr].ten.size);
+                expect(response.body.data[10].savings).to.equal(loc.FourKStandard[curr].ten.savings);
+                expect(response.body.data[10].savingsInPercentage).to.equal(loc.FourKStandard[curr].ten.savingsInPercentage);
+                expect(response.body.data[10].orderBy).to.equal(loc.FourKStandard.orderBy);
+                expect(response.body.data[10].productType).to.equal(loc.FourKStandard.productType);
+
+                //expect(response.body.data[11].packageId).to.equal(loc.FourKStandard[curr].twentyFive.packageId);
+                expect(response.body.data[11].packageName).to.equal(loc.FourKStandard[lc].packageName);
+                expect(response.body.data[11].packageNameInEnglish).to.equal(loc.FourKStandard.en.packageName);
+                expect(response.body.data[11].packageDescription).to.equal(loc.FourKStandard[lc].packageDescription);
+                expect(response.body.data[11].duration).to.equal(loc.FourKStandard.duration);
+                expect(response.body.data[11].price).to.equal(loc.FourKStandard[curr].twentyFive.price);
+                expect(response.body.data[11].pricePerDownload).to.equal(loc.FourKStandard[curr].twentyFive.pricePerDownload);
+                expect(response.body.data[11].size).to.equal(loc.FourKStandard[curr].twentyFive.size);
+                expect(response.body.data[11].savings).to.equal(loc.FourKStandard[curr].twentyFive.savings);
+                expect(response.body.data[11].savingsInPercentage).to.equal(loc.FourKStandard[curr].twentyFive.savingsInPercentage);
+                expect(response.body.data[11].orderBy).to.equal(loc.FourKStandard.orderBy);
+                expect(response.body.data[11].productType).to.equal(loc.FourKStandard.productType);
+
+                //expect(response.body.data[12].packageId).to.equal(loc.FourKEnhanced[curr].five.packageId);
+                expect(response.body.data[12].packageName).to.equal(loc.FourKEnhanced[lc].packageName);
+                expect(response.body.data[12].packageNameInEnglish).to.equal(loc.FourKEnhanced.en.packageName);
+                expect(response.body.data[12].packageDescription).to.equal(loc.FourKEnhanced[lc].packageDescription);
+                expect(response.body.data[12].duration).to.equal(loc.FourKEnhanced.duration);
+                expect(response.body.data[12].price).to.equal(loc.FourKEnhanced[curr].five.price);
+                expect(response.body.data[12].pricePerDownload).to.equal(loc.FourKEnhanced[curr].five.pricePerDownload);
+                expect(response.body.data[12].size).to.equal(loc.FourKEnhanced[curr].five.size);
+                expect(response.body.data[12].savings).to.equal(loc.FourKEnhanced[curr].five.savings);
+                expect(response.body.data[12].savingsInPercentage).to.equal(loc.FourKEnhanced[curr].five.savingsInPercentage);
+                expect(response.body.data[12].orderBy).to.equal(loc.FourKEnhanced.orderBy);
+                expect(response.body.data[12].productType).to.equal(loc.FourKEnhanced.productType);
+
+                //expect(response.body.data[13].packageId).to.equal(loc.FourKEnhanced[curr].ten.packageId);
+                expect(response.body.data[13].packageName).to.equal(loc.FourKEnhanced[lc].packageName);
+                expect(response.body.data[13].packageNameInEnglish).to.equal(loc.FourKEnhanced.en.packageName);
+                expect(response.body.data[13].packageDescription).to.equal(loc.FourKEnhanced[lc].packageDescription);
+                expect(response.body.data[13].duration).to.equal(loc.FourKEnhanced.duration);
+                expect(response.body.data[13].price).to.equal(loc.FourKEnhanced[curr].ten.price);
+                expect(response.body.data[13].pricePerDownload).to.equal(loc.FourKEnhanced[curr].ten.pricePerDownload);
+                expect(response.body.data[13].size).to.equal(loc.FourKEnhanced[curr].ten.size);
+                expect(response.body.data[13].savings).to.equal(loc.FourKEnhanced[curr].ten.savings);
+                expect(response.body.data[13].savingsInPercentage).to.equal(loc.FourKEnhanced[curr].ten.savingsInPercentage);
+                expect(response.body.data[13].orderBy).to.equal(loc.FourKEnhanced.orderBy);
+                expect(response.body.data[13].productType).to.equal(loc.FourKEnhanced.productType);
+
+                //expect(response.body.data[14].packageId).to.equal(loc.FourKEnhanced[curr].twentyFive.packageId);
+                expect(response.body.data[14].packageName).to.equal(loc.FourKEnhanced[lc].packageName);
+                expect(response.body.data[14].packageNameInEnglish).to.equal(loc.FourKEnhanced.en.packageName);
+                expect(response.body.data[14].packageDescription).to.equal(loc.FourKEnhanced[lc].packageDescription);
+                expect(response.body.data[14].duration).to.equal(loc.FourKEnhanced.duration);
+                expect(response.body.data[14].price).to.equal(loc.FourKEnhanced[curr].twentyFive.price);
+                expect(response.body.data[14].pricePerDownload).to.equal(loc.FourKEnhanced[curr].twentyFive.pricePerDownload);
+                expect(response.body.data[14].size).to.equal(loc.FourKEnhanced[curr].twentyFive.size);
+                expect(response.body.data[14].savings).to.equal(loc.FourKEnhanced[curr].twentyFive.savings);
+                expect(response.body.data[14].savingsInPercentage).to.equal(loc.FourKEnhanced[curr].twentyFive.savingsInPercentage);
+                expect(response.body.data[14].orderBy).to.equal(loc.FourKEnhanced.orderBy);
+                expect(response.body.data[14].productType).to.equal(loc.FourKEnhanced.productType);
+
+                //expect(response.body.data[15].packageId).to.equal(loc.FourKRoyaltyFree[curr].five.packageId);
+                expect(response.body.data[15].packageName).to.equal(loc.FourKRoyaltyFree[lc].packageName);
+                expect(response.body.data[15].packageNameInEnglish).to.equal(loc.FourKRoyaltyFree.en.packageName);
+                expect(response.body.data[15].packageDescription).to.equal(loc.FourKRoyaltyFree[lc].packageDescription);
+                expect(response.body.data[15].duration).to.equal(loc.FourKRoyaltyFree.duration);
+                expect(response.body.data[15].price).to.equal(loc.FourKRoyaltyFree[curr].five.price);
+                expect(response.body.data[15].pricePerDownload).to.equal(loc.FourKRoyaltyFree[curr].five.pricePerDownload);
+                expect(response.body.data[15].size).to.equal(loc.FourKRoyaltyFree[curr].five.size);
+                expect(response.body.data[15].savings).to.equal(loc.FourKRoyaltyFree[curr].five.savings);
+                expect(response.body.data[15].savingsInPercentage).to.equal(loc.FourKRoyaltyFree[curr].five.savingsInPercentage);
+                expect(response.body.data[15].orderBy).to.equal(loc.FourKRoyaltyFree.orderBy);
+                expect(response.body.data[15].productType).to.equal(loc.FourKRoyaltyFree.productType);
+
+                //expect(response.body.data[16].packageId).to.equal(loc.FourKRoyaltyFree[curr].ten.packageId);
+                expect(response.body.data[16].packageName).to.equal(loc.FourKRoyaltyFree[lc].packageName);
+                expect(response.body.data[16].packageNameInEnglish).to.equal(loc.FourKRoyaltyFree.en.packageName);
+                expect(response.body.data[16].packageDescription).to.equal(loc.FourKRoyaltyFree[lc].packageDescription);
+                expect(response.body.data[16].duration).to.equal(loc.FourKRoyaltyFree.duration);
+                expect(response.body.data[16].price).to.equal(loc.FourKRoyaltyFree[curr].ten.price);
+                expect(response.body.data[16].pricePerDownload).to.equal(loc.FourKRoyaltyFree[curr].ten.pricePerDownload);
+                expect(response.body.data[16].size).to.equal(loc.FourKRoyaltyFree[curr].ten.size);
+                expect(response.body.data[16].savings).to.equal(loc.FourKRoyaltyFree[curr].ten.savings);
+                expect(response.body.data[16].savingsInPercentage).to.equal(loc.FourKRoyaltyFree[curr].ten.savingsInPercentage);
+                expect(response.body.data[16].orderBy).to.equal(loc.FourKRoyaltyFree.orderBy);
+                expect(response.body.data[16].productType).to.equal(loc.FourKRoyaltyFree.productType);
+
+                //expect(response.body.data[17].packageId).to.equal(loc.FourKRoyaltyFree[curr].twentyFive.packageId);
+                expect(response.body.data[17].packageName).to.equal(loc.FourKRoyaltyFree[lc].packageName);
+                expect(response.body.data[17].packageNameInEnglish).to.equal(loc.FourKRoyaltyFree.en.packageName);
+                expect(response.body.data[17].packageDescription).to.equal(loc.FourKRoyaltyFree[lc].packageDescription);
+                expect(response.body.data[17].duration).to.equal(loc.FourKRoyaltyFree.duration);
+                expect(response.body.data[17].price).to.equal(loc.FourKRoyaltyFree[curr].twentyFive.price);
+                expect(response.body.data[17].pricePerDownload).to.equal(loc.FourKRoyaltyFree[curr].twentyFive.pricePerDownload);
+                expect(response.body.data[17].size).to.equal(loc.FourKRoyaltyFree[curr].twentyFive.size);
+                expect(response.body.data[17].savings).to.equal(loc.FourKRoyaltyFree[curr].twentyFive.savings);
+                expect(response.body.data[17].savingsInPercentage).to.equal(loc.FourKRoyaltyFree[curr].twentyFive.savingsInPercentage);
+                expect(response.body.data[17].orderBy).to.equal(loc.FourKRoyaltyFree.orderBy);
+                expect(response.body.data[17].productType).to.equal(loc.FourKRoyaltyFree.productType);
+                
+                done();
+            })            
+        });
+    }
+    GetStandardPacksFail(curr,lc,done)
+    {
+        cy.request(Cypress.env('baseurl')+'/microservices/contentpacks/managecontentpacks.asmx/GetStandardPacks?currency='+curr+'&langcode='+lc).as('comments')
+        cy.get('@comments').should((response) => {
+            expect(response.body.error).to.deep.contains({
+                "code": 401,
+                "type": "Unauthorized"
+            });
+            done();
+        });
+    }
+}
+export default videoPackFuncAPI
