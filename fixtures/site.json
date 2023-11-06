@@ -1,0 +1,5 @@
+{
+  "currencies": ["GBP", "EUR", "USD", "CAD", "AUD", "INR"],
+  "languages": ["en", "de", "es", "fr", "it"],
+  "paymentType":[1,2,3,4]
+}

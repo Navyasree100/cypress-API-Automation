@@ -1,0 +1,1010 @@
+{
+"RfstandardImage":{
+	"Id": "3710efc2-80d2-4e8d-afe6-d5133134b378",
+	"UserId": "220241e3-294f-4b60-919f-1dfc595b7bfa",
+	"DatePurchased": "2022-05-31T12:03:29.8706708+05:30",
+	"PurchaseType": 0,
+	"Amount": {
+		"Total": 9.99,
+		"Tax": 2,
+		"SubTotal": 11.99,
+		"VatRate": 20
+	},
+	"LanguageCode": 0,
+	"Currency": "GBP",	
+	"XForwardedForIP": "192.168.0.1",
+	"IsAffiliate": false,
+	"MarketingOptIn": false,
+	"Items": [
+		{
+			"Id": "6566e6a4-1cb5-4ac2-9075-3864881ad029",
+			"Price": 9.99,
+			"ProductId": "5dde41cf-5ff8-4e73-ab7e-c45bfbc69884",
+			"LicenseType": "RF",
+			"DateAdded": "2022-05-31T12:03:29.8706708+05:30",
+			"ProductType": 0,
+			"LicenseId": "573b1edc-f841-4e2e-8c34-33e462b5eb39"
+		}
+	],
+	"Billing": {
+		"AddressLine1": "ADDRESSLINE1",
+		"AddressLine2": "ADDRESSLINE2",
+		"City": "CITY",
+		"State": "STATE",
+		"PostalCode": "POSTALCODE",
+		"Country": "UNITED KINGDOM",
+		"CountryId": "UK",
+		"OrderedByEmail": "test@alamy.com",
+		"VATRegistrationNo": "VATREGISTRATIONNO",
+		"CreditCard": {
+			"Number": "4111",
+			"Type": "VISA",
+			"ExpiryMonth": "02",
+			"ExpiryYear": "2025"
+		},
+		"PaymentType": 1
+	},
+	"CreditCardHistory": {
+		"RequestId": "REQUESTID",
+		"MerchantReferenceCode": "MERCHANTREFERENCECODE",
+		"ReasonCode": 100,
+		"MerchantId": "MERCHANTID",
+		"Flag": "0",
+		"Message": "",
+		"DateCreated": "2022-05-31T12:03:29.8706708+05:30",
+		"IPCountry": "UK"
+	},
+	"PaypalHistory": {
+		"PayerId": "PAYERID",
+		"TransactionId": "TRANSACTIONID",
+		"PaymentStatus": 100,
+		"RequestToken": "REQUESTTOKEN",
+		"SaleId": "SALEID",
+		"AuthAccessToken": "AUTHACCESSTOKEN",
+		"Flag": "0",
+		"Message": "",
+		"DateCreated": "2022-05-31T12:03:29.8706708+05:30",
+		"IPCountry": "UK"
+	},
+	"ExtraDetails": {
+		"PurchaseOrderNo": "PURCHASEORDERNO",
+		"ClientId": "CLIENTID",
+		"Ref": "REF",
+		"OrderedBy": "ORDEREDBY",
+		"Comments": "COMMENTS",
+		"CustId": "CUSTID",
+		"TransferLicence": "TRANSFERLICENCE"
+	},
+	"PromoCode": {
+		"UserId":"c364f639-4ed9-4517-be85-f3f01942d103",
+		"Code": "PROMOCODE",
+		"LicenseType": 0,
+		"NoOfAllowedPurchases": 1,
+		"Image": {
+			"BasicDiscountRate": 10,
+			"BulkDiscountRate": 0,
+			"NumberOfItems": 0
+		},
+		"Video": {
+			"BasicDiscountRate": 0,
+			"BulkDiscountRate": 0,
+			"NumberOfItems": 0
+		},
+		"All": {
+			"BasicDiscountRate": 0,
+			"BulkDiscountRate": 0,
+			"NumberOfItems": 0
+		}
+	}
+},
+"RfcustomImage":{
+	"Id": "3710efc2-80d2-4e8d-afe6-d5133134b378",
+	"UserId": "220241e3-294f-4b60-919f-1dfc595b7bfa",
+	"DatePurchased": "2022-05-31T12:03:29.8706708+05:30",
+	"PurchaseType": 0,
+	"Amount": {
+		"Total": 9.99,
+		"Tax": 2,
+		"SubTotal": 11.99,
+		"VatRate": 20
+	},
+	"LanguageCode": 0,
+	"Currency": "GBP",	
+	"XForwardedForIP": "192.168.0.1",
+	"IsAffiliate": false,
+	"MarketingOptIn": false,
+	"Items": [
+		{
+			"Id": "6566e6a4-1cb5-4ac2-9075-3864881ad029",
+			"Price": 9.99,
+			"ProductId": "5dde41cf-5ff8-4e73-ab7e-c45bfbc69884",
+			"LicenseType": "RF",
+			"DateAdded": "2022-05-31T12:03:29.8706708+05:30",
+			"ProductType": 0,
+			"LicenseId": ""
+		}
+	],
+	"Billing": {
+		"AddressLine1": "ADDRESSLINE1",
+		"AddressLine2": "ADDRESSLINE2",
+		"City": "CITY",
+		"State": "STATE",
+		"PostalCode": "POSTALCODE",
+		"Country": "UNITED KINGDOM",
+		"CountryId": "UK",
+		"OrderedByEmail": "test@alamy.com",
+		"VATRegistrationNo": "VATREGISTRATIONNO",
+		"CreditCard": {
+			"Number": "4111",
+			"Type": "VISA",
+			"ExpiryMonth": "02",
+			"ExpiryYear": "2025"
+		},
+		"PaymentType": 1
+	},
+	"CreditCardHistory": {
+		"RequestId": "REQUESTID",
+		"MerchantReferenceCode": "MERCHANTREFERENCECODE",
+		"ReasonCode": 100,
+		"MerchantId": "MERCHANTID",
+		"Flag": "0",
+		"Message": "",
+		"DateCreated": "2022-05-31T12:03:29.8706708+05:30",
+		"IPCountry": "UK"
+	},
+	"PaypalHistory": {
+		"PayerId": "PAYERID",
+		"TransactionId": "TRANSACTIONID",
+		"PaymentStatus": 100,
+		"RequestToken": "REQUESTTOKEN",
+		"SaleId": "SALEID",
+		"AuthAccessToken": "AUTHACCESSTOKEN",
+		"Flag": "0",
+		"Message": "",
+		"DateCreated": "2022-05-31T12:03:29.8706708+05:30",
+		"IPCountry": "UK"
+	},
+	"RFLicense": {
+		"ImageBin": 3
+	},
+	"ExtraDetails": {
+		"PurchaseOrderNo": "PURCHASEORDERNO",
+		"ClientId": "CLIENTID",
+		"Ref": "REF",
+		"OrderedBy": "ORDEREDBY",
+		"Comments": "COMMENTS",
+		"CustId": "CUSTID",
+		"TransferLicence": "TRANSFERLICENCE"
+	},
+	"PromoCode": {
+		"UserId":"c364f639-4ed9-4517-be85-f3f01942d103",
+		"Code": "PROMOCODE",
+		"LicenseType": 0,
+		"NoOfAllowedPurchases": 1,
+		"Image": {
+			"BasicDiscountRate": 10,
+			"BulkDiscountRate": 0,
+			"NumberOfItems": 0
+		},
+		"Video": {
+			"BasicDiscountRate": 0,
+			"BulkDiscountRate": 0,
+			"NumberOfItems": 0
+		},
+		"All": {
+			"BasicDiscountRate": 0,
+			"BulkDiscountRate": 0,
+			"NumberOfItems": 0
+		}
+	}
+},
+"RMImage":{
+	"Id": "63160fff-b0ed-4f3b-a07b-94a36098a450",
+	"UserId": "220241e3-294f-4b60-919f-1dfc595b7bfa",
+	"DatePurchased": "2022-05-31T12:03:29.8706708+05:30",
+	"PurchaseType": 0,
+	"Amount": {
+		"Total": 9.99,
+		"Tax": 2,
+		"SubTotal": 11.99,
+		"VatRate": 20
+	},
+	"LanguageCode": 0,
+	"Currency": "GBP",	
+	"XForwardedForIP": "192.168.0.1",
+	"IsAffiliate": false,
+	"MarketingOptIn": false,
+	"Items": [
+		{
+			"Id": "6c3c33ab-fc1b-4015-a21f-caea302509aa",
+			"Price": 9.99,
+			"ProductId": "5dde41cf-5ff8-4e73-ab7e-c45bfbc69884",
+			"LicenseType": "RM",
+			"DateAdded": "2022-05-31T12:03:29.8706708+05:30",
+			"ProductType": 0,
+			"LicenseId": "573b1edc-f841-4e2e-8c34-33e462b5eb39"
+		}
+	],
+	"Billing": {
+		"AddressLine1": "ADDRESSLINE1",
+		"AddressLine2": "ADDRESSLINE2",
+		"City": "CITY",
+		"State": "STATE",
+		"PostalCode": "POSTALCODE",
+		"Country": "UNITED KINGDOM",
+		"CountryId": "UK",
+		"OrderedByEmail": "test@alamy.com",
+		"VATRegistrationNo": "VATREGISTRATIONNO",
+		"CreditCard": {
+			"Number": "4111",
+			"Type": "VISA",
+			"ExpiryMonth": "02",
+			"ExpiryYear": "2025"
+		},
+		"PaymentType": 2
+	},
+	"CreditCardHistory": {
+		"RequestId": "REQUESTID",
+		"MerchantReferenceCode": "MERCHANTREFERENCECODE",
+		"ReasonCode": 100,
+		"MerchantId": "MERCHANTID",
+		"Flag": "0",
+		"Message": "",
+		"DateCreated": "2022-05-31T12:03:29.8706708+05:30",
+		"IPCountry": "UK"
+	},
+	"PaypalHistory": {
+		"PayerId": "PAYERID",
+		"TransactionId": "TRANSACTIONID",
+		"PaymentStatus": 100,
+		"RequestToken": "REQUESTTOKEN",
+		"SaleId": "SALEID",
+		"AuthAccessToken": "AUTHACCESSTOKEN",
+		"Flag": "0",
+		"Message": "",
+		"DateCreated": "2022-05-31T12:03:29.8706708+05:30",
+		"IPCountry": "UK"
+	},
+	"RFLicense": {
+		"ImageBin": 0
+	},
+	"ExtraDetails": {
+		"PurchaseOrderNo": "PURCHASEORDERNO",
+		"ClientId": "CLIENTID",
+		"Ref": "REF",
+		"OrderedBy": "ORDEREDBY",
+		"Comments": "COMMENTS",
+		"CustId": "CUSTID",
+		"TransferLicence": "TRANSFERLICENCE"
+	},
+	"PromoCode": {
+		"UserId":"c364f639-4ed9-4517-be85-f3f01942d103",
+		"Code": "PROMOCODE",
+		"LicenseType": 0,
+		"NoOfAllowedPurchases": 1,
+		"Image": {
+			"BasicDiscountRate": 10,
+			"BulkDiscountRate": 0,
+			"NumberOfItems": 0
+		},
+		"Video": {
+			"BasicDiscountRate": 0,
+			"BulkDiscountRate": 0,
+			"NumberOfItems": 0
+		},
+		"All": {
+			"BasicDiscountRate": 0,
+			"BulkDiscountRate": 0,
+			"NumberOfItems": 0
+		}
+	}
+},
+ "Vector":{
+	"Id": "63160fff-b0ed-4f3b-a07b-94a36098a450",
+	"UserId": "220241e3-294f-4b60-919f-1dfc595b7bfa",
+	"DatePurchased": "2022-05-31T12:03:29.8706708+05:30",
+	"PurchaseType": 0,
+	"Amount": {
+		"Total": 9.99,
+		"Tax": 2,
+		"SubTotal": 11.99,
+		"VatRate": 20
+	},
+	"LanguageCode": 0,
+	"Currency": "GBP",	
+	"XForwardedForIP": "192.168.0.1",
+	"IsAffiliate": false,
+	"MarketingOptIn": false,
+	"Items": [
+		{
+			"Id": "518b6bd0-e8b4-46d4-83c7-a991f9145aae",
+			"Price": 9.99,
+			"ProductId": "cc39a1a2-69d7-4348-a703-70a0a06c30cf",
+			"LicenseType": "RF",
+			"DateAdded": "2022-05-31T12:03:29.8706708+05:30",
+			"ProductType": 0,
+			"LicenseId": "f09ea294-376e-47d5-b5d8-fa2af296a696"
+		}
+	],
+	"Billing": {
+		"AddressLine1": "ADDRESSLINE1",
+		"AddressLine2": "ADDRESSLINE2",
+		"City": "CITY",
+		"State": "STATE",
+		"PostalCode": "POSTALCODE",
+		"Country": "UNITED KINGDOM",
+		"CountryId": "UK",
+		"OrderedByEmail": "test@alamy.com",
+		"VATRegistrationNo": "VATREGISTRATIONNO",
+		"CreditCard": {
+			"Number": "4111",
+			"Type": "VISA",
+			"ExpiryMonth": "02",
+			"ExpiryYear": "2025"
+		},
+		"PaymentType": 3
+	},
+	"CreditCardHistory": {
+		"RequestId": "REQUESTID",
+		"MerchantReferenceCode": "MERCHANTREFERENCECODE",
+		"ReasonCode": 100,
+		"MerchantId": "MERCHANTID",
+		"Flag": "0",
+		"Message": "",
+		"DateCreated": "2022-05-31T12:03:29.8706708+05:30",
+		"IPCountry": "UK"
+	},
+	"PaypalHistory": {
+		"PayerId": "PAYERID",
+		"TransactionId": "TRANSACTIONID",
+		"PaymentStatus": 100,
+		"RequestToken": "REQUESTTOKEN",
+		"SaleId": "SALEID",
+		"AuthAccessToken": "AUTHACCESSTOKEN",
+		"Flag": "0",
+		"Message": "",
+		"DateCreated": "2022-05-31T12:03:29.8706708+05:30",
+		"IPCountry": "UK"
+	},
+	"RFLicense": {
+		"ImageBin": 0
+	},
+	"ExtraDetails": {
+		"PurchaseOrderNo": "PURCHASEORDERNO",
+		"ClientId": "CLIENTID",
+		"Ref": "REF",
+		"OrderedBy": "ORDEREDBY",
+		"Comments": "COMMENTS",
+		"CustId": "CUSTID",
+		"TransferLicence": "TRANSFERLICENCE"
+	},
+	"PromoCode": {
+		"UserId":"c364f639-4ed9-4517-be85-f3f01942d103",
+		"Code": "PROMOCODE",
+		"LicenseType": 0,
+		"NoOfAllowedPurchases": 1,
+		"Image": {
+			"BasicDiscountRate": 10,
+			"BulkDiscountRate": 0,
+			"NumberOfItems": 0
+		},
+		"Video": {
+			"BasicDiscountRate": 0,
+			"BulkDiscountRate": 0,
+			"NumberOfItems": 0
+		},
+		"All": {
+			"BasicDiscountRate": 0,
+			"BulkDiscountRate": 0,
+			"NumberOfItems": 0
+		}
+	}
+},
+ "i360":{
+	"Id": "63160fff-b0ed-4f3b-a07b-94a36098a450",
+	"UserId": "220241E3-294F-4B60-919F-1DFC595B7BFA",
+	"DatePurchased": "2022-05-31T12:03:29.8706708+05:30",
+	"PurchaseType": 0,
+	"Amount": {
+		"Total": 249.99,
+		"Tax": 50,
+		"SubTotal": 299.99,
+		"VatRate": 20
+	},
+	"LanguageCode": 0,
+	"Currency": "GBP",	
+	"XForwardedForIP": "192.168.0.1",
+	"IsAffiliate": false,
+	"MarketingOptIn": false,
+	"Items": [
+		{
+			"Id": "7bdee9a8-9c68-4db5-b416-e008c5a8da32",
+			"Price": 9.99,
+			"ProductId": "bf09f9de-b8c8-402d-a2c2-78139b821ee7",
+			"LicenseType": "RM",
+			"DateAdded": "2022-05-31T12:03:29.8706708+05:30",
+			"ProductType": 0,
+			"LicenseId": "b5af01b3-e0be-4bd6-af14-1bd665990499"
+		}
+	],
+	"Billing": {
+		"AddressLine1": "ADDRESSLINE1",
+		"AddressLine2": "ADDRESSLINE2",
+		"City": "CITY",
+		"State": "STATE",
+		"PostalCode": "POSTALCODE",
+		"Country": "UNITED KINGDOM",
+		"CountryId": "UK",
+		"OrderedByEmail": "test@alamy.com",
+		"VATRegistrationNo": "VATREGISTRATIONNO",
+		"CreditCard": {
+			"Number": "4111",
+			"Type": "VISA",
+			"ExpiryMonth": "02",
+			"ExpiryYear": "2025"
+		},
+		"PaymentType": 4
+	},
+	"CreditCardHistory": {
+		"RequestId": "REQUESTID",
+		"MerchantReferenceCode": "MERCHANTREFERENCECODE",
+		"ReasonCode": 100,
+		"MerchantId": "MERCHANTID",
+		"Flag": "0",
+		"Message": "",
+		"DateCreated": "2022-05-31T12:03:29.8706708+05:30",
+		"IPCountry": "UK"
+	},
+	"PaypalHistory": {
+		"PayerId": "PAYERID",
+		"TransactionId": "TRANSACTIONID",
+		"PaymentStatus": 100,
+		"RequestToken": "REQUESTTOKEN",
+		"SaleId": "SALEID",
+		"AuthAccessToken": "AUTHACCESSTOKEN",
+		"Flag": "0",
+		"Message": "",
+		"DateCreated": "2022-05-31T12:03:29.8706708+05:30",
+		"IPCountry": "UK"
+	},
+	"RFLicense": {
+		"ImageBin": 0
+	},
+	"ExtraDetails": {
+		"PurchaseOrderNo": "PURCHASEORDERNO",
+		"ClientId": "CLIENTID",
+		"Ref": "REF",
+		"OrderedBy": "ORDEREDBY",
+		"Comments": "COMMENTS",
+		"CustId": "CUSTID",
+		"TransferLicence": "TRANSFERLICENCE"
+	},
+	"PromoCode": {
+		"UserId":"c364f639-4ed9-4517-be85-f3f01942d103",
+		"Code": "PROMOCODE",
+		"LicenseType": 0,
+		"NoOfAllowedPurchases": 1,
+		"Image": {
+			"BasicDiscountRate": 10,
+			"BulkDiscountRate": 0,
+			"NumberOfItems": 0
+		},
+		"Video": {
+			"BasicDiscountRate": 0,
+			"BulkDiscountRate": 0,
+			"NumberOfItems": 0
+		},
+		"All": {
+			"BasicDiscountRate": 0,
+			"BulkDiscountRate": 0,
+			"NumberOfItems": 0
+		}
+	}
+},
+ "PremiumImageRF":{
+	"Id": "63160fff-b0ed-4f3b-a07b-94a36098a450",
+	"UserId": "220241E3-294F-4B60-919F-1DFC595B7BFA",
+	"DatePurchased": "2022-05-31T12:03:29.8706708+05:30",
+	"PurchaseType": 0,
+	"Amount": {
+		"Total": 19.99,
+		"Tax": 4,
+		"SubTotal": 23.99,
+		"VatRate": 20
+	},
+	"LanguageCode": 0,
+	"Currency": "GBP",	
+	"XForwardedForIP": "192.168.0.1",
+	"IsAffiliate": false,
+	"MarketingOptIn": false,
+	"Items": [
+		{
+			"Id": "8dff3a7b-04a7-451d-a56a-ee48e8ca0302",
+			"Price": 19.99,
+			"ProductId": "cad2ba4f-caf1-42dc-86c3-0002f776068f",
+			"LicenseType": "RF",
+			"DateAdded": "2022-05-31T12:03:29.8706708+05:30",
+			"ProductType": 0,
+			"LicenseId": "a664be02-794a-449b-a6da-63d7235f3085"
+		}
+	],
+	"Billing": {
+		"AddressLine1": "ADDRESSLINE1",
+		"AddressLine2": "ADDRESSLINE2",
+		"City": "CITY",
+		"State": "STATE",
+		"PostalCode": "POSTALCODE",
+		"Country": "UNITED KINGDOM",
+		"CountryId": "UK",
+		"OrderedByEmail": "test@alamy.com",
+		"VATRegistrationNo": "VATREGISTRATIONNO",
+		"CreditCard": {
+			"Number": "4111",
+			"Type": "VISA",
+			"ExpiryMonth": "02",
+			"ExpiryYear": "2025"
+		},
+		"PaymentType": 1
+	},
+	"CreditCardHistory": {
+		"RequestId": "REQUESTID",
+		"MerchantReferenceCode": "MERCHANTREFERENCECODE",
+		"ReasonCode": 100,
+		"MerchantId": "MERCHANTID",
+		"Flag": "0",
+		"Message": "",
+		"DateCreated": "2022-05-31T12:03:29.8706708+05:30",
+		"IPCountry": "UK"
+	},
+	"PaypalHistory": {
+		"PayerId": "PAYERID",
+		"TransactionId": "TRANSACTIONID",
+		"PaymentStatus": 100,
+		"RequestToken": "REQUESTTOKEN",
+		"SaleId": "SALEID",
+		"AuthAccessToken": "AUTHACCESSTOKEN",
+		"Flag": "0",
+		"Message": "",
+		"DateCreated": "2022-05-31T12:03:29.8706708+05:30",
+		"IPCountry": "UK"
+	},
+	"RFLicense": {
+		"ImageBin": 0
+	},
+	"ExtraDetails": {
+		"PurchaseOrderNo": "PURCHASEORDERNO",
+		"ClientId": "CLIENTID",
+		"Ref": "REF",
+		"OrderedBy": "ORDEREDBY",
+		"Comments": "COMMENTS",
+		"CustId": "CUSTID",
+		"TransferLicence": "TRANSFERLICENCE"
+	},
+	"PromoCode": {
+		"UserId":"c364f639-4ed9-4517-be85-f3f01942d103",
+		"Code": "PROMOCODE",
+		"LicenseType": 0,
+		"NoOfAllowedPurchases": 1,
+		"Image": {
+			"BasicDiscountRate": 10,
+			"BulkDiscountRate": 0,
+			"NumberOfItems": 0
+		},
+		"Video": {
+			"BasicDiscountRate": 0,
+			"BulkDiscountRate": 0,
+			"NumberOfItems": 0
+		},
+		"All": {
+			"BasicDiscountRate": 0,
+			"BulkDiscountRate": 0,
+			"NumberOfItems": 0
+		}
+	}
+},
+ "PremiumImageRM":{
+	"Id": "3710efc2-80d2-4e8d-afe6-d5133134b378",
+	"UserId": "220241E3-294F-4B60-919F-1DFC595B7BFA",
+	"DatePurchased": "2022-05-31T12:03:29.8706708+05:30",
+	"PurchaseType": 0,
+	"Amount": {
+		"Total": 19.99,
+		"Tax": 4,
+		"SubTotal": 23.99,
+		"VatRate": 20
+	},
+	"LanguageCode": 0,
+	"Currency": "GBP",	
+	"XForwardedForIP": "192.168.0.1",
+	"IsAffiliate": false,
+	"MarketingOptIn": false,
+	"Items": [
+		{
+			"Id": "1d305c05-ef69-4c3c-8a1b-3053361bcb1c",
+			"Price": 19.99,
+			"ProductId": "99561051-128c-4671-be3d-00bc56dac587",
+			"LicenseType": "RM",
+			"DateAdded": "2022-05-31T12:03:29.8706708+05:30",
+			"ProductType": 0,
+			"LicenseId": "573b1edc-f841-4e2e-8c34-33e462b5eb39"
+		}
+	],
+	"Billing": {
+		"AddressLine1": "ADDRESSLINE1",
+		"AddressLine2": "ADDRESSLINE2",
+		"City": "CITY",
+		"State": "STATE",
+		"PostalCode": "POSTALCODE",
+		"Country": "UNITED KINGDOM",
+		"CountryId": "UK",
+		"OrderedByEmail": "test@alamy.com",
+		"VATRegistrationNo": "VATREGISTRATIONNO",
+		"CreditCard": {
+			"Number": "4111",
+			"Type": "VISA",
+			"ExpiryMonth": "02",
+			"ExpiryYear": "2025"
+		},
+		"PaymentType": 2
+	},
+	"CreditCardHistory": {
+		"RequestId": "REQUESTID",
+		"MerchantReferenceCode": "MERCHANTREFERENCECODE",
+		"ReasonCode": 100,
+		"MerchantId": "MERCHANTID",
+		"Flag": "0",
+		"Message": "",
+		"DateCreated": "2022-05-31T12:03:29.8706708+05:30",
+		"IPCountry": "UK"
+	},
+	"PaypalHistory": {
+		"PayerId": "PAYERID",
+		"TransactionId": "TRANSACTIONID",
+		"PaymentStatus": 100,
+		"RequestToken": "REQUESTTOKEN",
+		"SaleId": "SALEID",
+		"AuthAccessToken": "AUTHACCESSTOKEN",
+		"Flag": "0",
+		"Message": "",
+		"DateCreated": "2022-05-31T12:03:29.8706708+05:30",
+		"IPCountry": "UK"
+	},
+	"RFLicense": {
+		"ImageBin": 0
+	},
+	"ExtraDetails": {
+		"PurchaseOrderNo": "PURCHASEORDERNO",
+		"ClientId": "CLIENTID",
+		"Ref": "REF",
+		"OrderedBy": "ORDEREDBY",
+		"Comments": "COMMENTS",
+		"CustId": "CUSTID",
+		"TransferLicence": "TRANSFERLICENCE"
+	},
+	"PromoCode": {
+		"UserId":"c364f639-4ed9-4517-be85-f3f01942d103",
+		"Code": "PROMOCODE",
+		"LicenseType": 0,
+		"NoOfAllowedPurchases": 1,
+		"Image": {
+			"BasicDiscountRate": 10,
+			"BulkDiscountRate": 0,
+			"NumberOfItems": 0
+		},
+		"Video": {
+			"BasicDiscountRate": 0,
+			"BulkDiscountRate": 0,
+			"NumberOfItems": 0
+		},
+		"All": {
+			"BasicDiscountRate": 0,
+			"BulkDiscountRate": 0,
+			"NumberOfItems": 0
+		}
+	}
+},
+"Video":{
+	"Id": "63160fff-b0ed-4f3b-a07b-94a36098a450",
+	"UserId": "220241E3-294F-4B60-919F-1DFC595B7BFA",
+	"DatePurchased": "2022-05-31T12:03:29.8706708+05:30",
+	"PurchaseType": 0,
+	"Amount": {
+		"Total": 19.99,
+		"Tax": 4,
+		"SubTotal": 23.99,
+		"VatRate": 20
+	},
+	"LanguageCode": 0,
+	"Currency": "GBP",	
+	"XForwardedForIP": "192.168.0.1",
+	"IsAffiliate": false,
+	"MarketingOptIn": false,
+	"Items": [
+		{
+			"Id": "04263175-aca3-44a7-8e72-457e30c2b363",
+			"Price": 19.99,
+			"ProductId": "784cac00-b066-4313-9ba1-b414a471f7c0",
+			"LicenseType": "RF",
+			"DateAdded": "2022-05-31T12:03:29.8706708+05:30",
+			"ProductType": 2,
+			"LicenseId": "573b1edc-f841-4e2e-8c34-33e462b5eb39"
+		}
+	],
+	"Billing": {
+		"AddressLine1": "ADDRESSLINE1",
+		"AddressLine2": "ADDRESSLINE2",
+		"City": "CITY",
+		"State": "STATE",
+		"PostalCode": "POSTALCODE",
+		"Country": "UNITED KINGDOM",
+		"CountryId": "UK",
+		"OrderedByEmail": "test@alamy.com",
+		"VATRegistrationNo": "VATREGISTRATIONNO",
+		"CreditCard": {
+			"Number": "4111",
+			"Type": "VISA",
+			"ExpiryMonth": "02",
+			"ExpiryYear": "2025"
+		},
+		"PaymentType": 2
+	},
+	"CreditCardHistory": {
+		"RequestId": "REQUESTID",
+		"MerchantReferenceCode": "MERCHANTREFERENCECODE",
+		"ReasonCode": 100,
+		"MerchantId": "MERCHANTID",
+		"Flag": "0",
+		"Message": "",
+		"DateCreated": "2022-05-31T12:03:29.8706708+05:30",
+		"IPCountry": "UK"
+	},
+	"PaypalHistory": {
+		"PayerId": "PAYERID",
+		"TransactionId": "TRANSACTIONID",
+		"PaymentStatus": 100,
+		"RequestToken": "REQUESTTOKEN",
+		"SaleId": "SALEID",
+		"AuthAccessToken": "AUTHACCESSTOKEN",
+		"Flag": "0",
+		"Message": "",
+		"DateCreated": "2022-05-31T12:03:29.8706708+05:30",
+		"IPCountry": "UK"
+	},
+	"RFLicense": {
+		"ImageBin": 0
+	},
+	"ExtraDetails": {
+		"PurchaseOrderNo": "PURCHASEORDERNO",
+		"ClientId": "CLIENTID",
+		"Ref": "REF",
+		"OrderedBy": "ORDEREDBY",
+		"Comments": "COMMENTS",
+		"CustId": "CUSTID",
+		"TransferLicence": "TRANSFERLICENCE"
+	},
+	"PromoCode": {
+		"UserId":"c364f639-4ed9-4517-be85-f3f01942d103",
+		"Code": "PROMOCODE",
+		"LicenseType": 0,
+		"NoOfAllowedPurchases": 1,
+		"Image": {
+			"BasicDiscountRate": 10,
+			"BulkDiscountRate": 0,
+			"NumberOfItems": 0
+		},
+		"Video": {
+			"BasicDiscountRate": 0,
+			"BulkDiscountRate": 0,
+			"NumberOfItems": 0
+		},
+		"All": {
+			"BasicDiscountRate": 0,
+			"BulkDiscountRate": 0,
+			"NumberOfItems": 0
+		}
+	}
+},
+ "ImagePack":{
+	"Id": "c44c989a-1e60-42bd-9974-720ede953fa8",
+	"UserId": "c364f639-4ed9-4517-be85-f3f01942d103",
+	"DatePurchased": "2022-05-31T12:03:29.8706708+05:30",
+	"PurchaseType": 0,
+	"Amount": {
+		"Total": 41.66,
+		"Tax": 8.33,
+		"SubTotal": 49.99,
+		"VatRate": 20
+	},
+	"LanguageCode": 0,
+	"Currency": "GBP",	
+	"XForwardedForIP": "192.168.0.1",
+	"IsAffiliate": false,
+	"MarketingOptIn": false,
+	"Items": [
+		{
+			"Id": "3ea20384-66c6-4224-9f27-723a7e08671a",
+			"Price": 41.66,
+			"ProductId": "6b132ccf-a1e8-4f9b-a080-0d9553c60987",
+			"LicenseType": "RM",
+			"DateAdded": "2022-05-31T12:03:29.8706708+05:30",
+			"ProductType": "image",
+			"LicenseId": "adad9ada-080d-4ead-b3ff-9f153a765884"
+		}
+	],
+	"Billing": {
+		"AddressLine1": "ADDRESSLINE1",
+		"AddressLine2": "ADDRESSLINE2",
+		"City": "CITY",
+		"State": "STATE",
+		"PostalCode": "POSTALCODE",
+		"Country": "UNITED KINGDOM",
+		"CountryId": "UK",
+		"OrderedByEmail": "test@alamy.com",
+		"VATRegistrationNo": "VATREGISTRATIONNO",
+		"CreditCard": {
+			"Number": "4111",
+			"Type": "VISA",
+			"ExpiryMonth": "02",
+			"ExpiryYear": "2025"
+		},
+		"PaymentType": 1
+	},
+	"CreditCardHistory": {
+		"RequestId": "REQUESTID",
+		"MerchantReferenceCode": "MERCHANTREFERENCECODE",
+		"ReasonCode": 100,
+		"MerchantId": "MERCHANTID",
+		"Flag": "0",
+		"Message": "",
+		"DateCreated": "2022-05-31T12:03:29.8706708+05:30",
+		"IPCountry": "UK"
+	},
+	"PaypalHistory": {
+		"PayerId": "PAYERID",
+		"TransactionId": "TRANSACTIONID",
+		"PaymentStatus": 100,
+		"RequestToken": "REQUESTTOKEN",
+		"SaleId": "SALEID",
+		"AuthAccessToken": "AUTHACCESSTOKEN",
+		"Flag": "0",
+		"Message": "",
+		"DateCreated": "2022-05-31T12:03:29.8706708+05:30",
+		"IPCountry": "UK"
+	},
+	"RFLicense": {
+		"ImageBin": 0
+	},
+	"ExtraDetails": {
+		"PurchaseOrderNo": "PURCHASEORDERNO",
+		"ClientId": "CLIENTID",
+		"Ref": "REF",
+		"OrderedBy": "ORDEREDBY",
+		"Comments": "COMMENTS",
+		"CustId": "CUSTID",
+		"TransferLicence": "TRANSFERLICENCE"
+	},
+	"PromoCode": {
+		"UserId":"c364f639-4ed9-4517-be85-f3f01942d103",
+		"Code": "PROMOCODE",
+		"LicenseType": 0,
+		"NoOfAllowedPurchases": 1,
+		"Image": {
+			"BasicDiscountRate": 10,
+			"BulkDiscountRate": 0,
+			"NumberOfItems": 0
+		},
+		"Video": {
+			"BasicDiscountRate": 0,
+			"BulkDiscountRate": 0,
+			"NumberOfItems": 0
+		},
+		"All": {
+			"BasicDiscountRate": 0,
+			"BulkDiscountRate": 0,
+			"NumberOfItems": 0
+		}
+	}
+},
+ "VideoPack":{
+	"Id": "56e1d233-c024-45d3-8fb9-75b336321783",
+	"UserId": "c364f639-4ed9-4517-be85-f3f01942d103",
+	"DatePurchased": "2022-05-31T12:03:29.8706708+05:30",
+	"PurchaseType": 0,
+	"Amount": {
+		"Total": 304.17,
+		"Tax": 60.83,
+		"SubTotal": 365.00,
+		"VatRate": 20
+	},
+	"LanguageCode": 0,
+	"Currency": "GBP",	
+	"XForwardedForIP": "192.168.0.1",
+	"IsAffiliate": false,
+	"MarketingOptIn": false,
+	"Items": [
+		{
+			"Id": "3ea20384-66c6-4224-9f27-723a7e08671a",
+			"Price": 304.17,
+			"ProductId": "92958b65-2e4c-ec11-97f3-00155d12d71a",
+			"LicenseType": "RF",
+			"DateAdded": "2022-05-31T12:03:29.8706708+05:30",
+			"ProductType": "video",
+			"LicenseId": "8dec3224-22d8-4c43-9f4c-3bbe1a6de3d9"
+		}
+	],
+	"Billing": {
+		"AddressLine1": "ADDRESSLINE1",
+		"AddressLine2": "ADDRESSLINE2",
+		"City": "CITY",
+		"State": "STATE",
+		"PostalCode": "POSTALCODE",
+		"Country": "UNITED KINGDOM",
+		"CountryId": "UK",
+		"OrderedByEmail": "test@alamy.com",
+		"VATRegistrationNo": "VATREGISTRATIONNO",
+		"CreditCard": {
+			"Number": "4111",
+			"Type": "VISA",
+			"ExpiryMonth": "02",
+			"ExpiryYear": "2025"
+		},
+		"PaymentType": 1
+	},
+	"CreditCardHistory": {
+		"RequestId": "REQUESTID",
+		"MerchantReferenceCode": "MERCHANTREFERENCECODE",
+		"ReasonCode": 100,
+		"MerchantId": "MERCHANTID",
+		"Flag": "0",
+		"Message": "",
+		"DateCreated": "2022-05-31T12:03:29.8706708+05:30",
+		"IPCountry": "UK"
+	},
+	"PaypalHistory": {
+		"PayerId": "PAYERID",
+		"TransactionId": "TRANSACTIONID",
+		"PaymentStatus": 100,
+		"RequestToken": "REQUESTTOKEN",
+		"SaleId": "SALEID",
+		"AuthAccessToken": "AUTHACCESSTOKEN",
+		"Flag": "0",
+		"Message": "",
+		"DateCreated": "2022-05-31T12:03:29.8706708+05:30",
+		"IPCountry": "UK"
+	},
+	"RFLicense": {
+		"ImageBin": 0
+	},
+	"ExtraDetails": {
+		"PurchaseOrderNo": "PURCHASEORDERNO",
+		"ClientId": "CLIENTID",
+		"Ref": "REF",
+		"OrderedBy": "ORDEREDBY",
+		"Comments": "COMMENTS",
+		"CustId": "CUSTID",
+		"TransferLicence": "TRANSFERLICENCE"
+	},
+	"PromoCode": {
+		"UserId":"c364f639-4ed9-4517-be85-f3f01942d103",
+		"Code": "PROMOCODE",
+		"LicenseType": 0,
+		"NoOfAllowedPurchases": 1,
+		"Image": {
+			"BasicDiscountRate": 10,
+			"BulkDiscountRate": 0,
+			"NumberOfItems": 0
+		},
+		"Video": {
+			"BasicDiscountRate": 0,
+			"BulkDiscountRate": 0,
+			"NumberOfItems": 0
+		},
+		"All": {
+			"BasicDiscountRate": 0,
+			"BulkDiscountRate": 0,
+			"NumberOfItems": 0
+		}
+	}
+}
+
+}

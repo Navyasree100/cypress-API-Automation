@@ -1,0 +1,111 @@
+{
+  "Imagepack_standard": {
+    "Id": "56e1d233-c024-45d3-8fb9-75b336321783",
+    "User": {
+      "Id": "B1A71037-7213-43A7-83AB-67DF335028E6",
+      "MarketingOptIn": false,
+      "XForwardedForIP": "192.168.0.1"
+    },
+    "DatePurchased": "2022-05-31T12:03:29.8706708+05:30",
+    "PurchaseType": 1,
+    "Amount": {
+      "Total": 8.33,
+      "Tax": 2,
+      "SubTotal": 10.33,
+      "VatRate": 20
+    },
+    "LanguageCode": 0,
+    "Currency": "GBP",
+    "IsAffiliate": false,
+    "MarketingOptIn": false,
+    "Items": [
+      {
+        "Id": "B3297395-F086-E711-9DD4-90B11C55B1BC",
+        "Price": 9.99,
+        "LicenseType": 1,
+        "DateAdded": "2022-05-31T12:03:29.8706708+05:30",
+        "ProductType": 4,
+        "LicenseId": "69EADC4D-883A-4554-8C58-03CE2F76B98E"
+      }
+    ],
+    "Billing": {
+      "AddressLine1": "ADDRESSLINE1",
+      "AddressLine2": "ADDRESSLINE2",
+      "City": "CITY",
+      "State": "STATE",
+      "PostalCode": "POSTALCODE",
+      "Country": "UNITED KINGDOM",
+      "CountryId": "UK",
+      "Email": "test@alamy.com",
+      "VATRegistrationNo": "VATREGISTRATIONNO",
+      "PaymentType": 2
+    },
+    "PaypalHistory": {
+      "PayerId": "PAYERID",
+      "TransactionId": "TRANSACTIONID",
+      "Status": 100,
+      "RequestToken": "REQUESTTOKEN",
+      "SaleId": "SALEID",
+      "AuthAccessToken": "AUTHACCESSTOKEN",
+      "Flag": "0",
+      "Message": "",
+      "DateCreated": "2022-05-31T12:03:29.8706708+05:30",
+      "IPCountry": "UK"
+    }
+  },
+  "Imagepack_customRF": {
+    "Id": "56e1d233-c024-45d3-8fb9-75b336321783",
+    "User": {
+      "Id": "B1A71037-7213-43A7-83AB-67DF335028E6",
+      "MarketingOptIn": false,
+      "XForwardedForIP": "192.168.0.1"
+    },
+    "DatePurchased": "2022-05-31T12:03:29.8706708+05:30",
+    "PurchaseType": 1,
+    "Amount": {
+      "Total": 200.0,
+      "Tax": 2,
+      "SubTotal": 220.0,
+      "VatRate": 20
+    },
+    "LanguageCode": 0,
+    "Currency": "GBP",
+    "IsAffiliate": false,
+    "MarketingOptIn": false,
+    "Items": [
+      {
+        "Id": "B3297395-F086-E711-9DD4-90B11C55B1BC",
+        "Price": 200.0,
+        "LicenseType": 1,
+        "DateAdded": "2022-05-31T12:03:29.8706708+05:30",
+        "ProductType": 4,
+        "LicenseId": "",
+        "ImageBin": 0
+      }
+    ],
+    "Billing": {
+      "AddressLine1": "ADDRESSLINE1",
+      "AddressLine2": "ADDRESSLINE2",
+      "City": "CITY",
+      "State": "STATE",
+      "PostalCode": "POSTALCODE",
+      "Country": "UNITED KINGDOM",
+      "CountryId": "UK",
+      "Email": "test@alamy.com",
+      "VATRegistrationNo": "VATREGISTRATIONNO",
+      "PaymentType": 2
+    },
+    "PaypalHistory": {
+      "PayerId": "PAYERID",
+      "TransactionId": "TRANSACTIONID",
+      "Status": 100,
+      "RequestToken": "REQUESTTOKEN",
+      "SaleId": "SALEID",
+      "AuthAccessToken": "AUTHACCESSTOKEN",
+      "Flag": "0",
+      "Message": "",
+      "DateCreated": "2022-05-31T12:03:29.8706708+05:30",
+      "IPCountry": "UK"
+    }
+  }
+}

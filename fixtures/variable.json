@@ -1,0 +1,12 @@
+{
+    "com":
+    {
+        "login_page_email_validation_msg_txt" : "Please enter a valid email address",
+        "alamy_test_keyword" : "test",
+        "imvalid_email_address" : "testcomautosec$/:*^~@alamy.com",
+        "email_warning_message" : "Email addressPlease enter a valid email address",
+        "weak_password_message" : "Sorry we can't accept weak passwords because they are vulnerable to fraud. Please try again.",
+        "SEO_White_logo_path" : "images/branding/sections/logo/alamy-logo-white.svg",
+        "SEO_Black_logo_path" : "images/branding/sections/logo/alamy-logo-black.svg"
+    }
+}

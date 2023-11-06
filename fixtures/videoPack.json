@@ -1,0 +1,1271 @@
+{
+    "HDStandard":
+    {  
+        "en":
+        {
+            "packageName": "HD - Standard",
+            "packageDescription": "Web & social media – single project"
+        },
+        "de":
+        {
+            "packageName": "HD - Standard",
+            "packageDescription": "Online & Social Media – einzelnes Projekt"
+        },
+        "es":
+        {
+            "packageName": "HD - Estándar",
+            "packageDescription": "Web y redes sociales - un solo proyecto"
+        },
+        "fr":
+        {
+            "packageName": "HD - Standard",
+            "packageDescription": "Web et réseaux sociaux - projet unique"
+        },
+        "it":
+        {
+            "packageName": "HD - Standard",
+            "packageDescription": "Web e social media - progetto singolo"
+        },
+        "duration": "365",
+        "gbp":
+        {
+            "five":
+            {
+                "packageId": "bce36789-324c-ec11-8101-00155d102b26",
+                "price": 200.00,
+                "pricePerDownload": 40.00,
+                "size": 5,
+                "savings": 40.00,
+                "savingsInPercentage": 17.00
+            },
+            "ten":
+            {
+                "packageId": "bde36789-324c-ec11-8101-00155d102b26",
+                "price": 358.33,
+                "pricePerDownload": 35.83,
+                "size": 10,
+                "savings": 121.67,
+                "savingsInPercentage": 25.00
+            },
+            "twentyFive":
+            {
+                "packageId": "bee36789-324c-ec11-8101-00155d102b26",
+                "price": 854.17,
+                "pricePerDownload": 34.17,
+                "size": 25,
+                "savings": 345.83,
+                "savingsInPercentage": 29.00
+            }
+        },
+        "usd":
+        {
+            "five":
+            {
+                "packageId": "",
+                "price": 270.00,
+                "pricePerDownload": 54.00,
+                "size": 5,
+                "savings": 55.00,
+                "savingsInPercentage": 17.00
+            },
+            "ten":
+            {
+                "packageId": "",
+                "price": 490.00,
+                "pricePerDownload": 49.00,
+                "size": 10,
+                "savings": 160.00,
+                "savingsInPercentage": 25.00
+            },
+            "twentyFive":
+            {
+                "packageId": "",
+                "price": 1150.00,
+                "pricePerDownload": 46.00,
+                "size": 25,
+                "savings": 475.00,
+                "savingsInPercentage": 29.00
+            }
+        },
+        "eur":
+        {
+            "five":
+            {
+                "packageId": "",
+                "price": 230.00,
+                "pricePerDownload": 46,
+                "size": 5,
+                "savings": 45.00,
+                "savingsInPercentage": 16.00
+            },
+            "ten":
+            {
+                "packageId": "",
+                "price": 410.00,
+                "pricePerDownload": 41.00,
+                "size": 10,
+                "savings": 140.00,
+                "savingsInPercentage": 25.00
+            },
+            "twentyFive":
+            {
+                "packageId": "",
+                "price": 975.00,
+                "pricePerDownload": 39.00,
+                "size": 25,
+                "savings": 400.00,
+                "savingsInPercentage": 29.00
+            }
+        },
+        "cad":
+        {
+            "five":
+            {
+                "packageId": "",
+                "price": 355.00,
+                "pricePerDownload": 71.00,
+                "size": 5,
+                "savings": 70.00,
+                "savingsInPercentage": 16.00
+            },
+            "ten":
+            {
+                "packageId": "",
+                "price": 640.00,
+                "pricePerDownload": 64.00,
+                "size": 10,
+                "savings": 210.00,
+                "savingsInPercentage": 25.00
+            },
+            "twentyFive":
+            {
+                "packageId": "",
+                "price": 1500.00,
+                "pricePerDownload": 60.00,
+                "size": 25,
+                "savings": 625.00,
+                "savingsInPercentage": 29.00
+            }
+        },
+        "aud":
+        {
+            "five":
+            {
+                "packageId": "",
+                "price": 375.00,
+                "pricePerDownload": 75.00,
+                "size": 5,
+                "savings": 75.00,
+                "savingsInPercentage": 17.00
+            },
+            "ten":
+            {
+                "packageId": "",
+                "price": 680.00,
+                "pricePerDownload": 68.00,
+                "size": 10,
+                "savings": 220.00,
+                "savingsInPercentage": 24.00
+            },
+            "twentyFive":
+            {
+                "packageId": "",
+                "price": 1575.00,
+                "pricePerDownload": 63.00,
+                "size": 25,
+                "savings": 675.00,
+                "savingsInPercentage": 30.00
+            }
+        },
+        "inr":
+        {
+            "five":
+            {
+                "packageId": "",
+                "price": 21000.00,
+                "pricePerDownload": 4200.00,
+                "size": 5,
+                "savings": 4250.00,
+                "savingsInPercentage": 17.00
+            },
+            "ten":
+            {
+                "packageId": "",
+                "price": 37900.00,
+                "pricePerDownload": 3790.00,
+                "size": 10,
+                "savings": 12600.00,
+                "savingsInPercentage": 25.00
+            },
+            "twentyFive":
+            {
+                "packageId": "",
+                "price": 88375.00,
+                "pricePerDownload": 3535.00,
+                "size": 25,
+                "savings": 37875.00,
+                "savingsInPercentage": 30.00
+            }
+        },
+        "orderBy": 0,
+        "productType":"video"
+    },
+    "HDEnhanced":
+    {  
+        "en":
+        {
+            "packageName": "HD - Enhanced",
+            "packageDescription": "Worry free all-media use – single project"
+        },
+        "de":
+        {
+            "packageName": "HD - Erweitert",
+            "packageDescription": "Sorgenfreie Nutzung in allen Medien – einzelnes Projekt"
+        },
+        "es":
+        {
+            "packageName": "HD - Mejorado",
+            "packageDescription": "Uso con total tranquilidad en todos los medios - un solo proyecto"
+        },
+        "fr":
+        {
+            "packageName": "HD - Amélioré",
+            "packageDescription": "Utilisation sur tous supports sans risque - projet unique"
+        },
+        "it":
+        {
+            "packageName": "HD - Avanzata",
+            "packageDescription": "Utilizzo senza problemi per tutti i media - progetto singolo"
+        },
+        "duration": "365",
+        "gbp":
+        {
+            "five":
+            {
+                "packageId": "ec76eb6f-324c-ec11-8101-00155d102b26",
+                "price": 562.50,
+                "pricePerDownload": 112.50,
+                "size": 5,
+                "savings": 112.50,
+                "savingsInPercentage": 17.00
+            },
+            "ten":
+            {
+                "packageId": "ed76eb6f-324c-ec11-8101-00155d102b26",
+                "price": 1016.67,
+                "pricePerDownload": 101.67,
+                "size": 10,
+                "savings": 333.33,
+                "savingsInPercentage": 25.00
+            },
+            "twentyFive":
+            {
+                "packageId": "ee76eb6f-324c-ec11-8101-00155d102b26",
+                "price": 2354.17,
+                "pricePerDownload": 94.17,
+                "size": 25,
+                "savings": 1020.83,
+                "savingsInPercentage": 30.00
+            }
+        },
+        "usd":
+        {
+            "five":
+            {
+                "packageId": "",
+                "price": 770.00,
+                "pricePerDownload": 154.00,
+                "size": 5,
+                "savings": 155.00,
+                "savingsInPercentage": 17.00
+            },
+            "ten":
+            {
+                "packageId": "",
+                "price": 1390.00,
+                "pricePerDownload": 139.00,
+                "size": 10,
+                "savings": 460.00,
+                "savingsInPercentage": 25.00
+            },
+            "twentyFive":
+            {
+                "packageId": "",
+                "price": 3250.00,
+                "pricePerDownload": 130.00,
+                "size": 25,
+                "savings": 1375.00,
+                "savingsInPercentage": 30.00
+            }
+        },
+        "eur":
+        {
+            "five":
+            {
+                "packageId": "",
+                "price": 665.00,
+                "pricePerDownload": 133.00,
+                "size": 5,
+                "savings": 135.00,
+                "savingsInPercentage": 17.00
+            },
+            "ten":
+            {
+                "packageId": "",
+                "price": 1200.00,
+                "pricePerDownload": 120.00,
+                "size": 10,
+                "savings": 400.00,
+                "savingsInPercentage": 25.00
+            },
+            "twentyFive":
+            {
+                "packageId": "",
+                "price": 2800.00,
+                "pricePerDownload": 112.00,
+                "size": 25,
+                "savings": 1200.00,
+                "savingsInPercentage": 30.00
+            }
+        },
+        "cad":
+        {
+            "five":
+            {
+                "packageId": "",
+                "price": 990.00,
+                "pricePerDownload": 198.00,
+                "size": 5,
+                "savings": 200.00,
+                "savingsInPercentage": 17.00
+            },
+            "ten":
+            {
+                "packageId": "",
+                "price": 1790.00,
+                "pricePerDownload": 179.00,
+                "size": 10,
+                "savings": 590.00,
+                "savingsInPercentage": 25.00
+            },
+            "twentyFive":
+            {
+                "packageId": "",
+                "price": 4175.00,
+                "pricePerDownload": 167.00,
+                "size": 25,
+                "savings": 1775.00,
+                "savingsInPercentage": 30.00
+            }
+        },
+        "aud":
+        {
+            "five":
+            {
+                "packageId": "",
+                "price": 1060.00,
+                "pricePerDownload": 212.00,
+                "size": 5,
+                "savings": 215.00,
+                "savingsInPercentage": 17.00
+            },
+            "ten":
+            {
+                "packageId": "",
+                "price": 1910.00,
+                "pricePerDownload": 191.00,
+                "size": 10,
+                "savings": 640.00,
+                "savingsInPercentage": 25.00
+            },
+            "twentyFive":
+            {
+                "price": 4475.00,
+                "pricePerDownload": 179.00,
+                "size": 25,
+                "savings": 1900.00,
+                "savingsInPercentage": 30.00
+            }
+        },
+        "inr":
+        {
+            "five":
+            {
+                "packageId": "",
+                "price": 59650.00,
+                "pricePerDownload": 11930.00,
+                "size": 5,
+                "savings": 12200.00,
+                "savingsInPercentage": 17.00
+            },
+            "ten":
+            {
+                "packageId": "",
+                "price": 107800.00,
+                "pricePerDownload": 10780.00,
+                "size": 10,
+                "savings": 35900.00,
+                "savingsInPercentage": 25.00
+            },
+            "twentyFive":
+            {
+                "packageId": "",
+                "price": 251500.00,
+                "pricePerDownload": 10060.00,
+                "size": 25,
+                "savings": 107750.00,
+                "savingsInPercentage": 30.00
+            }
+        },
+        "orderBy": 1,
+        "productType":"video"
+    },
+
+    "HDRoyaltyFree":
+    {  
+        "en":
+        {
+            "packageName": "HD - Full Royalty Free (RF)",
+            "packageDescription": "Freedom for all uses forever – multiple projects"
+        },
+        "de":
+        {
+            "packageName": "HD - Lizenzfrei (RF)",
+            "packageDescription": "Unlimitierte beliebige Nutzung – mehrere Projekte"
+        },
+        "es":
+        {
+            "packageName": "HD - Totalmente libre de derechos (RF)",
+            "packageDescription": "Libertad por siempre para todos los usos - varios proyectos"
+        },
+        "fr":
+        {
+            "packageName": "HD - Entièrement libre de droits (LD)",
+            "packageDescription": "Utilisation libre à perpetuité - projets multiples"
+        },
+        "it":
+        {
+            "packageName": "HD - Royalty-free completa (RF)",
+            "packageDescription": "Libertà per tutti gli usi per sempre - progetti multipli"
+        },
+        "duration": "365",
+        "gbp":
+        {
+            "five":
+            {
+                "packageId": "c0d57b7c-324c-ec11-8101-00155d102b26",
+                "price": 1020.83,
+                "pricePerDownload": 204.17,
+                "size": 5,
+                "savings": 204.17,
+                "savingsInPercentage": 17.00
+            },
+            "ten":
+            {
+                "packageId": "c1d57b7c-324c-ec11-8101-00155d102b26",
+                "price": 1833.33,
+                "pricePerDownload": 183.33,
+                "size": 10,
+                "savings": 616.67,
+                "savingsInPercentage": 25.00
+            },
+            "twentyFive":
+            {
+                "packageId": "c2d57b7c-324c-ec11-8101-00155d102b26",
+                "price": 4270.83,
+                "pricePerDownload": 170.83,
+                "size": 25,
+                "savings": 1854.17,
+                "savingsInPercentage": 30.00
+            }
+        },
+        "usd":
+        {
+            "five":
+            {
+                "packageId": "",
+                "price": 1390.00,
+                "pricePerDownload": 278.00,
+                "size": 5,
+                "savings": 285.00,
+                "savingsInPercentage": 17.00
+            },
+            "ten":
+            {
+                "packageId": "",
+                "price": 2510.00,
+                "pricePerDownload": 251.00,
+                "size": 10,
+                "savings": 840.00,
+                "savingsInPercentage": 25.00
+            },
+            "twentyFive":
+            {
+                "packageId": "",
+                "price": 5875.00,
+                "pricePerDownload": 235.00,
+                "size": 25,
+                "savings": 2500.00,
+                "savingsInPercentage": 30.00
+            }
+        },
+        "eur":
+        {
+            "five":
+            {
+                "packageId": "",
+                "price": 1190.00,
+                "pricePerDownload": 238.00,
+                "size": 5,
+                "savings": 245.00,
+                "savingsInPercentage": 17.00
+            },
+            "ten":
+            {
+                "packageId": "",
+                "price": 2150.00,
+                "pricePerDownload": 215.00,
+                "size": 10,
+                "savings": 720.00,
+                "savingsInPercentage": 25.00
+            },
+            "twentyFive":
+            {
+                "packageId": "",
+                "price": 5025.00,
+                "pricePerDownload": 201.00,
+                "size": 25,
+                "savings": 2150.00,
+                "savingsInPercentage": 30.00
+            }
+        },
+        "cad":
+        {
+            "five":
+            {
+                "packageId": "",
+                "price": 1785.00,
+                "pricePerDownload": 357.00,
+                "size": 5,
+                "savings": 365.00,
+                "savingsInPercentage": 17.00
+            },
+            "ten":
+            {
+                "packageId": "",
+                "price": 3230.00,
+                "pricePerDownload": 323.00,
+                "size": 10,
+                "savings": 1070.00,
+                "savingsInPercentage": 25.00
+            },
+            "twentyFive":
+            {
+                "packageId": "",
+                "price": 7525.00,
+                "pricePerDownload": 301.00,
+                "size": 25,
+                "savings": 3225.00,
+                "savingsInPercentage": 30.00
+            }
+        },
+        "aud":
+        {
+            "five":
+            {
+                "packageId": "",
+                "price": 1910.00,
+                "pricePerDownload": 382.00,
+                "size": 5,
+                "savings": 390.00,
+                "savingsInPercentage": 17.00
+            },
+            "ten":
+            {
+                "packageId": "",
+                "price": 3450.00,
+                "pricePerDownload": 345.00,
+                "size": 10,
+                "savings": 1150.00,
+                "savingsInPercentage": 25.00
+            },
+            "twentyFive":
+            {
+                "packageId": "",
+                "price": 8050.00,
+                "pricePerDownload": 322.00,
+                "size": 25,
+                "savings": 3450.00,
+                "savingsInPercentage": 30.00
+            }
+        },
+        "inr":
+        {
+            "five":
+            {
+                "packageId": "",
+                "price": 107900.00,
+                "pricePerDownload": 21580.00,
+                "size": 5,
+                "savings": 22100.00,
+                "savingsInPercentage": 17.00
+            },
+            "ten":
+            {
+                "packageId": "",
+                "price": 195000.00,
+                "pricePerDownload": 19500.00,
+                "size": 10,
+                "savings": 65000.00,
+                "savingsInPercentage": 25.00
+            },
+            "twentyFive":
+            {
+                "packageId": "",
+                "price": 455000.00,
+                "pricePerDownload": 18200.00,
+                "size": 25,
+                "savings": 195000.00,
+                "savingsInPercentage": 30.00
+            }
+        },
+        "orderBy": 2,
+        "productType":"video"
+    },
+
+    "FourKStandard":
+    {  
+        "en":
+        {
+            "packageName": "4K - Standard",
+            "packageDescription": "Web & social media – single project"
+        },
+        "de":
+        {
+            "packageName": "4K - Standard",
+            "packageDescription": "Online & Social Media – einzelnes Projekt"
+        },
+        "es":
+        {
+            "packageName": "4K - Estándar",
+            "packageDescription": "Web y redes sociales - un solo proyecto"
+        },
+        "fr":
+        {
+            "packageName": "4K - Standard",
+            "packageDescription": "Web et réseaux sociaux - projet unique"
+        },
+        "it":
+        {
+            "packageName": "4K - Standard",
+            "packageDescription": "Web e social media - progetto singolo"
+        },
+        "duration": "365",
+        "gbp":
+        {
+            "five":
+            {
+                "packageId": "b0460641-324c-ec11-8101-00155d102b26",
+                "price": 304.17,
+                "pricePerDownload": 60.83,
+                "size": 5,
+                "savings": 60.83,
+                "savingsInPercentage": 17.00
+            },
+            "ten":
+            {
+                "packageId": "b1460641-324c-ec11-8101-00155d102b26",
+                "price": 550.00,
+                "pricePerDownload": 55.00,
+                "size": 10,
+                "savings": 180.00,
+                "savingsInPercentage": 25.00
+            },
+            "twentyFive":
+            {
+                "packageId": "b464dd47-324c-ec11-8101-00155d102b26",
+                "price": 1270.83,
+                "pricePerDownload": 50.83,
+                "size": 25,
+                "savings": 554.17,
+                "savingsInPercentage": 30.00
+            }
+        },
+        "usd":
+        {
+            "five":
+            {
+                "packageId": "",
+                "price": 415.00,
+                "pricePerDownload": 83.00,
+                "size": 5,
+                "savings": 85.00,
+                "savingsInPercentage": 17.00
+            },
+            "ten":
+            {
+                "packageId": "",
+                "price": 750.00,
+                "pricePerDownload": 75.00,
+                "size": 10,
+                "savings": 250.00,
+                "savingsInPercentage": 25.00
+            },
+            "twentyFive":
+            {
+                "packageId": "",
+                "price": 1750.00,
+                "pricePerDownload": 70.00,
+                "size": 25,
+                "savings": 750.00,
+                "savingsInPercentage": 30.00
+            }
+        },
+        "eur":
+        {
+            "five":
+            {
+                "packageId": "",
+                "price": 355.00,
+                "pricePerDownload": 71.00,
+                "size": 5,
+                "savings": 70.00,
+                "savingsInPercentage": 16.00
+            },
+            "ten":
+            {
+                "packageId": "",
+                "price": 640.00,
+                "pricePerDownload": 64.00,
+                "size": 10,
+                "savings": 210.00,
+                "savingsInPercentage": 25.00
+            },
+            "twentyFive":
+            {
+                "packageId": "",
+                "price": 1500.00,
+                "pricePerDownload": 60.00,
+                "size": 25,
+                "savings": 625.00,
+                "savingsInPercentage": 29.00
+            }
+        },
+        "cad":
+        {
+            "five":
+            {
+                "packageId": "",
+                "price": 540.00,
+                "pricePerDownload": 108.00,
+                "size": 5,
+                "savings": 110.00,
+                "savingsInPercentage": 17.00
+            },
+            "ten":
+            {
+                "packageId": "",
+                "price": 980.00,
+                "pricePerDownload": 98.00,
+                "size": 10,
+                "savings": 320.00,
+                "savingsInPercentage": 25.00
+            },
+            "twentyFive":
+            {
+                "packageId": "",
+                "price": 2275.00,
+                "pricePerDownload": 91.00,
+                "size": 25,
+                "savings": 975.00,
+                "savingsInPercentage": 30.00
+            }
+        },
+        "aud":
+        {
+            "five":
+            {
+                "packageId": "",
+                "price": 570.00,
+                "pricePerDownload": 114.00,
+                "size": 5,
+                "savings": 115.00,
+                "savingsInPercentage": 17.00
+            },
+            "ten":
+            {
+                "packageId": "",
+                "price": 1030.00,
+                "pricePerDownload": 103.00,
+                "size": 10,
+                "savings": 340.00,
+                "savingsInPercentage": 25.00
+            },
+            "twentyFive":
+            {
+                "packageId": "",
+                "price": 2400.00,
+                "pricePerDownload": 96.00,
+                "size": 25,
+                "savings": 1025.00,
+                "savingsInPercentage": 30.00
+            }
+        },
+        "inr":
+        {
+            "five":
+            {
+                "packageId": "",
+                "price": 32250.00,
+                "pricePerDownload": 6450.00,
+                "size": 5,
+                "savings": 6600.00,
+                "savingsInPercentage": 17.00
+            },
+            "ten":
+            {
+                "packageId": "",
+                "price": 58300.00,
+                "pricePerDownload": 5830.00,
+                "size": 10,
+                "savings": 19400.00,
+                "savingsInPercentage": 25.00
+            },
+            "twentyFive":
+            {
+                "packageId": "",
+                "price": 136000.00,
+                "pricePerDownload": 5440.00,
+                "size": 25,
+                "savings": 58250.00,
+                "savingsInPercentage": 30.00
+            }
+        },
+        "orderBy": 3,
+        "productType":"video"
+    },
+
+    "FourKEnhanced":
+    {  
+        "en":
+        {
+            "packageName": "4K - Enhanced",
+            "packageDescription": "Worry free all-media use – single project"
+        },
+        "de":
+        {
+            "packageName": "4K - Erweitert",
+            "packageDescription": "Sorgenfreie Nutzung in allen Medien – einzelnes Projekt"
+        },
+        "es":
+        {
+            "packageName": "4K - Mejorado",
+            "packageDescription": "Uso con total tranquilidad en todos los medios - un solo proyecto"
+        },
+        "fr":
+        {
+            "packageName": "4K - Amélioré",
+            "packageDescription": "Utilisation sur tous supports sans risque - projet unique"
+        },
+        "it":
+        {
+            "packageName": "4K - Avanzata",
+            "packageDescription": "Utilizzo senza problemi per tutti i media - progetto singolo"
+        },
+        "duration": "365",
+        "gbp":
+        {
+            "five":
+            {
+                "packageId": "83f4e324-324c-ec11-8101-00155d102b26",
+                "price": 833.33,
+                "pricePerDownload": 166.67,
+                "size": 5,
+                "savings": 166.67,
+                "savingsInPercentage": 17.00
+            },
+            "ten":
+            {
+                "packageId": "84f4e324-324c-ec11-8101-00155d102b26",
+                "price": 1500.00,
+                "pricePerDownload": 150.00,
+                "size": 10,
+                "savings": 500.00,
+                "savingsInPercentage": 25.00
+            },
+            "twentyFive":
+            {
+                "packageId": "85f4e324-324c-ec11-8101-00155d102b26",
+                "price": 3479.17,
+                "pricePerDownload": 139.17,
+                "size": 25,
+                "savings": 1520.83,
+                "savingsInPercentage": 30.00
+            }
+        },
+        "usd":
+        {
+            "five":
+            {
+                "packageId": "",
+                "price": 1140.00,
+                "pricePerDownload": 228.00,
+                "size": 5,
+                "savings": 235.00,
+                "savingsInPercentage": 17.00
+            },
+            "ten":
+            {
+                "packageId": "",
+                "price": 2060.00,
+                "pricePerDownload": 206.00,
+                "size": 10,
+                "savings": 690.00,
+                "savingsInPercentage": 25.00
+            },
+            "twentyFive":
+            {
+                "packageId": "",
+                "price": 4825.00,
+                "pricePerDownload": 193.00,
+                "size": 25.00,
+                "savings": 2050.00,
+                "savingsInPercentage": 30.00
+            }
+        },
+        "eur":
+        {
+            "five":
+            {
+                "packageId": "",
+                "price": 975.00,
+                "pricePerDownload": 195.00,
+                "size": 5,
+                "savings": 200.00,
+                "savingsInPercentage": 17.00
+            },
+            "ten":
+            {
+                "packageId": "",
+                "price": 1760.00,
+                "pricePerDownload": 176.00,
+                "size": 10,
+                "savings": 590.00,
+                "savingsInPercentage": 25.00
+            },
+            "twentyFive":
+            {
+                "packageId": "",
+                "price": 4125.00,
+                "pricePerDownload": 165.00,
+                "size": 25,
+                "savings": 1750.00,
+                "savingsInPercentage": 30.00
+            }
+        },
+        "cad":
+        {
+            "five":
+            {
+                "packageId": "",
+                "price": 1475.00,
+                "pricePerDownload": 295.00,
+                "size": 5,
+                "savings": 300.00,
+                "savingsInPercentage": 17.00
+            },
+            "ten":
+            {
+                "packageId": "",
+                "price": 2660.00,
+                "pricePerDownload": 266.00,
+                "size": 10,
+                "savings": 890.00,
+                "savingsInPercentage": 25.00
+            },
+            "twentyFive":
+            {
+                "packageId": "",
+                "price": 6225.00,
+                "pricePerDownload": 249.00,
+                "size": 25,
+                "savings": 2650.00,
+                "savingsInPercentage": 30.00
+            }
+        },
+        "aud":
+        {
+            "five":
+            {
+                "packageId": "",
+                "price": 1555.00,
+                "pricePerDownload": 311.00,
+                "size": 5,
+                "savings": 320.00,
+                "savingsInPercentage": 17.00
+            },
+            "ten":
+            {
+                "packageId": "",
+                "price": 2810.00,
+                "pricePerDownload": 281.00,
+                "size": 10,
+                "savings": 940.00,
+                "savingsInPercentage": 25.00
+            },
+            "twentyFive":
+            {
+                "packageId": "",
+                "price": 6575.00,
+                "pricePerDownload": 263.00,
+                "size": 25,
+                "savings": 2800.00,
+                "savingsInPercentage": 30.00
+            }
+        },
+        "inr":
+        {
+            "five":
+            {
+                "packageId": "",
+                "price": 88650.00,
+                "pricePerDownload": 17730.00,
+                "size": 5,
+                "savings": 18150.00,
+                "savingsInPercentage": 17.00
+            },
+            "ten":
+            {
+                "packageId": "",
+                "price": 160200.00,
+                "pricePerDownload": 16020.00,
+                "size": 10,
+                "savings": 53400.00,
+                "savingsInPercentage": 25.00
+            },
+            "twentyFive":
+            {
+                "packageId": "",
+                "price": 375000.00,
+                "pricePerDownload": 15000.00,
+                "size": 25,
+                "savings": 159000.00,
+                "savingsInPercentage": 30.00
+            }
+        },
+        "orderBy": 4,
+        "productType":"video"
+    },
+
+    "FourKRoyaltyFree":
+    {  
+        "en":
+        {
+            "packageName": "4K - Full Royalty Free (RF)",
+            "packageDescription": "Freedom for all uses forever – multiple projects"
+        },
+        "de":
+        {
+            "packageName": "4K - Lizenzfrei (RF)",
+            "packageDescription": "Unlimitierte beliebige Nutzung – mehrere Projekte"
+        },
+        "es":
+        {
+            "packageName": "4K - Totalmente libre de derechos (RF)",
+            "packageDescription": "Libertad por siempre para todos los usos - varios proyectos"
+        },
+        "fr":
+        {
+            "packageName": "4K - Entièrement libre de droits (LD)",
+            "packageDescription": "Utilisation libre à perpetuité - projets multiples"
+        },
+        "it":
+        {
+            "packageName": "4K - Royalty-free completa (RF)",
+            "packageDescription": "Libertà per tutti gli usi per sempre - progetti multipli"
+        },
+        "duration": "365",
+        "gbp":
+        {
+            "five":
+            {
+                "packageId": "87b33233-324c-ec11-8101-00155d102b26",
+                "price": 1187.50,
+                "pricePerDownload": 237.50,
+                "size": 5,
+                "savings": 237.50,
+                "savingsInPercentage": 17.00
+            },
+            "ten":
+            {
+                "packageId": "88b33233-324c-ec11-8101-00155d102b26",
+                "price": 2133.33,
+                "pricePerDownload": 213.33,
+                "size": 10,
+                "savings": 716.67,
+                "savingsInPercentage": 25.00
+            },
+            "twentyFive":
+            {
+                "packageId": "520e3139-324c-ec11-8101-00155d102b26",
+                "price": 4958.33,
+                "pricePerDownload": 198.33,
+                "size": 25,
+                "savings": 2166.67,
+                "savingsInPercentage": 30.00
+            }
+        },
+        "usd":
+        {
+            "five":
+            {
+                "packageId": "",
+                "price": 1620.00,
+                "pricePerDownload": 324.00,
+                "size": 5,
+                "savings": 330.00,
+                "savingsInPercentage": 17.00
+            },
+            "ten":
+            {
+                "packageId": "",
+                "price": 2930.00,
+                "pricePerDownload": 293.00,
+                "size": 10,
+                "savings": 970.00,
+                "savingsInPercentage": 25.00
+            },
+            "twentyFive":
+            {
+                "packageId": "",
+                "price": 6825.00,
+                "pricePerDownload": 273.00,
+                "size": 25,
+                "savings": 2925.00,
+                "savingsInPercentage": 30.00
+            }
+        },
+        "eur":
+        {
+            "five":
+            {
+                "packageId": "",
+                "price": 1390.00,
+                "pricePerDownload": 278.00,
+                "size": 5,
+                "savings": 285.00,
+                "savingsInPercentage": 17.00
+            },
+            "ten":
+            {
+                "packageId": "",
+                "price": 2510.00,
+                "pricePerDownload": 251.00,
+                "size": 10,
+                "savings": 840.00,
+                "savingsInPercentage": 25.00
+            },
+            "twentyFive":
+            {
+                "packageId": "",
+                "price": 5875.00,
+                "pricePerDownload": 235.00,
+                "size": 25,
+                "savings": 2500.00,
+                "savingsInPercentage": 30.00
+            }
+        },
+        "cad":
+        {
+            "five":
+            {
+                "packageId": "",
+                "price": 2075.00,
+                "pricePerDownload": 415.00,
+                "size": 5,
+                "savings": 425.00,
+                "savingsInPercentage": 17.00
+            },
+            "ten":
+            {
+                "packageId": "",
+                "price": 3750.00,
+                "pricePerDownload": 375.00,
+                "size": 10,
+                "savings": 1250.00,
+                "savingsInPercentage": 25.00
+            },
+            "twentyFive":
+            {
+                "packageId": "",
+                "price": 8750.00,
+                "pricePerDownload": 350.00,
+                "size": 25,
+                "savings": 3750.00,
+                "savingsInPercentage": 30.00
+            }
+        },
+        "aud":
+        {
+            "five":
+            {
+                "packageId": "",
+                "price": 2220.00,
+                "pricePerDownload": 444.00,
+                "size": 5,
+                "savings": 455.00,
+                "savingsInPercentage": 17.00
+            },
+            "ten":
+            {
+                "packageId": "",
+                "price": 4010.00,
+                "pricePerDownload": 401.00,
+                "size": 10,
+                "savings": 1340.00,
+                "savingsInPercentage": 25.00
+            },
+            "twentyFive":
+            {
+                "packageId": "",
+                "price": 9375.00,
+                "pricePerDownload": 375.00,
+                "size": 25,
+                "savings": 4000.00,
+                "savingsInPercentage": 30.00
+            }
+        },
+        "inr":
+        {
+            "five":
+            {
+                "packageId": "",
+                "price": 125750.00,
+                "pricePerDownload": 25150.00,
+                "size": 5,
+                "savings": 25750.00,
+                "savingsInPercentage": 17.00
+            },
+            "ten":
+            {
+                "packageId": "",
+                "price": 227250.00,
+                "pricePerDownload": 22725.00,
+                "size": 10,
+                "savings": 75750.00,
+                "savingsInPercentage": 25.00
+            },
+            "twentyFive":
+            {
+                "packageId": "",
+                "price": 530250.00,
+                "pricePerDownload": 21210.00,
+                "size": 25,
+                "savings": 227250.00,
+                "savingsInPercentage": 30.00
+            }
+        },
+        "orderBy": 5,
+        "productType":"video"
+    }
+}

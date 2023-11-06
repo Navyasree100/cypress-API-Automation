@@ -1,0 +1,569 @@
+{
+  "RfstandardImage": {
+    "Id": "3710efc2-80d2-4e8d-afe6-d5133134b378",
+    "User": {
+      "Id": "B1A71037-7213-43A7-83AB-67DF335028E6",
+      "MarketingOptIn": false,
+      "XForwardedForIP": "192.168.0.1"
+    },
+    "DatePurchased": "2022-05-31T12:03:29.8706708+05:30",
+    "PurchaseType": 0,
+    "Amount": {
+      "Total": 9.99,
+      "Tax": 2,
+      "SubTotal": 11.99,
+      "VatRate": 20
+    },
+    "LanguageCode": 0,
+    "Currency": "GBP",
+    "IsAffiliate": false,
+    "MarketingOptIn": false,
+    "Items": [
+      {
+        "Id": "6566e6a4-1cb5-4ac2-9075-3864881ad029",
+        "Price": 9.99,
+        "ProductId": "5dde41cf-5ff8-4e73-ab7e-c45bfbc69884",
+        "LicenseType": 1,
+        "DateAdded": "2022-05-31T12:03:29.8706708+05:30",
+        "ProductType": 0,
+        "LicenseId": "573b1edc-f841-4e2e-8c34-33e462b5eb39"
+      }
+    ],
+    "Billing": {
+      "AddressLine1": "ADDRESSLINE1",
+      "AddressLine2": "ADDRESSLINE2",
+      "City": "CITY",
+      "State": "STATE",
+      "PostalCode": "POSTALCODE",
+      "Country": "UNITED KINGDOM",
+      "CountryId": "UK",
+      "Email": "test@alamy.com",
+      "VATRegistrationNo": "VATREGISTRATIONNO",
+      "CreditCard": {
+        "Number": "4111",
+        "Type": "VISA",
+        "ExpiryMonth": "02",
+        "ExpiryYear": "2025"
+      },
+      "PaymentType": 1
+    },
+    "CreditCardHistory": {
+      "RequestId": "REQUESTID",
+      "MerchantReferenceCode": "MERCHANTREFERENCECODE",
+      "Status": 100,
+      "MerchantId": "MERCHANTID",
+      "Flag": "0",
+      "Message": "",
+      "DateCreated": "2022-05-31T12:03:29.8706708+05:30",
+      "IPCountry": "UK",
+      "PurchaseType": 1
+    },
+    "ExtraDetails": {
+      "PurchaseOrderNo": "PURCHASEORDERNO",
+      "ClientId": "CLIENTID",
+      "Ref": "REF",
+      "OrderedBy": "ORDEREDBY",
+      "Comments": "COMMENTS",
+      "CustId": "CUSTID",
+      "TransferLicence": "TRANSFERLICENCE"
+    }
+  },
+  "RfcustomImage": {
+    "Id": "3710efc2-80d2-4e8d-afe6-d5133134b378",
+    "User": {
+      "Id": "B1A71037-7213-43A7-83AB-67DF335028E6",
+      "MarketingOptIn": false,
+      "XForwardedForIP": "192.168.0.1"
+    },
+    "DatePurchased": "2022-05-31T12:03:29.8706708+05:30",
+    "PurchaseType": 0,
+    "Amount": {
+      "Total": 174.0,
+      "Tax": 2,
+      "SubTotal": 208.8,
+      "VatRate": 20
+    },
+    "LanguageCode": 0,
+    "Currency": "GBP",
+    "IsAffiliate": false,
+    "MarketingOptIn": false,
+    "Items": [
+      {
+        "Id": "6566e6a4-1cb5-4ac2-9075-3864881ad029",
+        "Price": 174.0,
+        "ProductId": "5dde41cf-5ff8-4e73-ab7e-c45bfbc69884",
+        "LicenseType": 1,
+        "DateAdded": "2022-05-31T12:03:29.8706708+05:30",
+        "ProductType": 0,
+        "LicenseId": ""
+      },
+      {
+        "Id": "6566e6a4-1cb5-4ac2-9075-3864881ad029",
+        "Price": 174.0,
+        "ProductId": "5dde41cf-5ff8-4e73-ab7e-c45bfbc69884",
+        "LicenseType": 1,
+        "DateAdded": "2022-05-31T12:03:29.8706708+05:30",
+        "ProductType": 0,
+        "RFLicense": {
+          "ImageBin": 0
+        }
+      }
+    ],
+    "Billing": {
+      "AddressLine1": "ADDRESSLINE1",
+      "AddressLine2": "ADDRESSLINE2",
+      "City": "CITY",
+      "State": "STATE",
+      "PostalCode": "POSTALCODE",
+      "Country": "UNITED KINGDOM",
+      "CountryId": "UK",
+      "Email": "test@alamy.com",
+      "VATRegistrationNo": "VATREGISTRATIONNO",
+      "CreditCard": {
+        "Number": "4111",
+        "Type": "VISA",
+        "ExpiryMonth": "02",
+        "ExpiryYear": "2025"
+      },
+      "PaymentType": 1
+    },
+    "CreditCardHistory": {
+      "RequestId": "REQUESTID",
+      "MerchantReferenceCode": "MERCHANTREFERENCECODE",
+      "Status": 100,
+      "MerchantId": "MERCHANTID",
+      "Flag": "0",
+      "Message": "",
+      "DateCreated": "2022-05-31T12:03:29.8706708+05:30",
+      "IPCountry": "UK",
+      "PurchaseType": 1
+    },
+    "RFLicense": {
+      "ImageBin": 0
+    },
+    "ExtraDetails": {
+      "PurchaseOrderNo": "PURCHASEORDERNO",
+      "ClientId": "CLIENTID",
+      "Ref": "REF",
+      "OrderedBy": "ORDEREDBY",
+      "Comments": "COMMENTS",
+      "CustId": "CUSTID",
+      "TransferLicence": "TRANSFERLICENCE"
+    }
+  },
+  "RMImage": {
+    "Id": "63160fff-b0ed-4f3b-a07b-94a36098a450",
+    "User": {
+      "Id": "B1A71037-7213-43A7-83AB-67DF335028E6",
+      "MarketingOptIn": false,
+      "XForwardedForIP": "192.168.0.1"
+    },
+    "DatePurchased": "2022-05-31T12:03:29.8706708+05:30",
+    "PurchaseType": 0,
+    "Amount": {
+      "Total": 9.99,
+      "Tax": 2,
+      "SubTotal": 11.99,
+      "VatRate": 20
+    },
+    "LanguageCode": 0,
+    "Currency": "GBP",
+    "IsAffiliate": false,
+    "MarketingOptIn": false,
+    "Items": [
+      {
+        "Id": "6c3c33ab-fc1b-4015-a21f-caea302509aa",
+        "Price": 9.99,
+        "ProductId": "5dde41cf-5ff8-4e73-ab7e-c45bfbc69884",
+        "LicenseType": 4,
+        "DateAdded": "2022-05-31T12:03:29.8706708+05:30",
+        "ProductType": 0,
+        "LicenseId": "573b1edc-f841-4e2e-8c34-33e462b5eb39"
+      }
+    ],
+    "Billing": {
+      "AddressLine1": "ADDRESSLINE1",
+      "AddressLine2": "ADDRESSLINE2",
+      "City": "CITY",
+      "State": "STATE",
+      "PostalCode": "POSTALCODE",
+      "Country": "UNITED KINGDOM",
+      "CountryId": "UK",
+      "Email": "test@alamy.com",
+      "VATRegistrationNo": "VATREGISTRATIONNO",
+      "CreditCard": {
+        "Number": "4111",
+        "Type": "VISA",
+        "ExpiryMonth": "02",
+        "ExpiryYear": "2025"
+      },
+      "PaymentType": 1
+    },
+    "CreditCardHistory": {
+      "RequestId": "REQUESTID",
+      "MerchantReferenceCode": "MERCHANTREFERENCECODE",
+      "Status": 100,
+      "MerchantId": "MERCHANTID",
+      "Flag": "0",
+      "Message": "",
+      "DateCreated": "2022-05-31T12:03:29.8706708+05:30",
+      "IPCountry": "UK",
+      "PurchaseType": 1
+    },
+    "ExtraDetails": {
+      "PurchaseOrderNo": "PURCHASEORDERNO",
+      "ClientId": "CLIENTID",
+      "Ref": "REF",
+      "OrderedBy": "ORDEREDBY",
+      "Comments": "COMMENTS",
+      "CustId": "CUSTID",
+      "TransferLicence": "TRANSFERLICENCE"
+    }
+  },
+  "Vector": {
+    "Id": "63160fff-b0ed-4f3b-a07b-94a36098a450",
+    "User": {
+      "Id": "B1A71037-7213-43A7-83AB-67DF335028E6",
+      "MarketingOptIn": false,
+      "XForwardedForIP": "192.168.0.1"
+    },
+    "DatePurchased": "2022-05-31T12:03:29.8706708+05:30",
+    "PurchaseType": 0,
+    "Amount": {
+      "Total": 9.99,
+      "Tax": 2,
+      "SubTotal": 11.99,
+      "VatRate": 20
+    },
+    "LanguageCode": 0,
+    "Currency": "GBP",
+    "IsAffiliate": false,
+    "MarketingOptIn": false,
+    "Items": [
+      {
+        "Id": "518b6bd0-e8b4-46d4-83c7-a991f9145aae",
+        "Price": 9.99,
+        "ProductId": "cc39a1a2-69d7-4348-a703-70a0a06c30cf",
+        "LicenseType": 1,
+        "DateAdded": "2022-05-31T12:03:29.8706708+05:30",
+        "ProductType": 0,
+        "LicenseId": "f09ea294-376e-47d5-b5d8-fa2af296a696"
+      }
+    ],
+    "Billing": {
+      "AddressLine1": "ADDRESSLINE1",
+      "AddressLine2": "ADDRESSLINE2",
+      "City": "CITY",
+      "State": "STATE",
+      "PostalCode": "POSTALCODE",
+      "Country": "UNITED KINGDOM",
+      "CountryId": "UK",
+      "Email": "test@alamy.com",
+      "VATRegistrationNo": "VATREGISTRATIONNO",
+      "CreditCard": {
+        "Number": "4111",
+        "Type": "VISA",
+        "ExpiryMonth": "02",
+        "ExpiryYear": "2025"
+      },
+      "PaymentType": 1
+    },
+    "CreditCardHistory": {
+      "RequestId": "REQUESTID",
+      "MerchantReferenceCode": "MERCHANTREFERENCECODE",
+      "Status": 100,
+      "MerchantId": "MERCHANTID",
+      "Flag": "0",
+      "Message": "",
+      "DateCreated": "2022-05-31T12:03:29.8706708+05:30",
+      "IPCountry": "UK",
+      "PurchaseType": 1
+    },
+    "ExtraDetails": {
+      "PurchaseOrderNo": "PURCHASEORDERNO",
+      "ClientId": "CLIENTID",
+      "Ref": "REF",
+      "OrderedBy": "ORDEREDBY",
+      "Comments": "COMMENTS",
+      "CustId": "CUSTID",
+      "TransferLicence": "TRANSFERLICENCE"
+    }
+  },
+  "i360": {
+    "Id": "63160fff-b0ed-4f3b-a07b-94a36098a450",
+    "User": {
+      "Id": "B1A71037-7213-43A7-83AB-67DF335028E6",
+      "MarketingOptIn": false,
+      "XForwardedForIP": "192.168.0.1"
+    },
+    "DatePurchased": "2022-05-31T12:03:29.8706708+05:30",
+    "PurchaseType": 0,
+    "Amount": {
+      "Total": 249.99,
+      "Tax": 50,
+      "SubTotal": 299.99,
+      "VatRate": 20
+    },
+    "LanguageCode": 0,
+    "Currency": "GBP",
+    "IsAffiliate": false,
+    "MarketingOptIn": false,
+    "Items": [
+      {
+        "Id": "7bdee9a8-9c68-4db5-b416-e008c5a8da32",
+        "Price": 9.99,
+        "ProductId": "bf09f9de-b8c8-402d-a2c2-78139b821ee7",
+        "LicenseType": 4,
+        "DateAdded": "2022-05-31T12:03:29.8706708+05:30",
+        "ProductType": 0,
+        "LicenseId": "b5af01b3-e0be-4bd6-af14-1bd665990499"
+      }
+    ],
+    "Billing": {
+      "AddressLine1": "ADDRESSLINE1",
+      "AddressLine2": "ADDRESSLINE2",
+      "City": "CITY",
+      "State": "STATE",
+      "PostalCode": "POSTALCODE",
+      "Country": "UNITED KINGDOM",
+      "CountryId": "UK",
+      "Email": "test@alamy.com",
+      "VATRegistrationNo": "VATREGISTRATIONNO",
+      "CreditCard": {
+        "Number": "4111",
+        "Type": "VISA",
+        "ExpiryMonth": "02",
+        "ExpiryYear": "2025"
+      },
+      "PaymentType": 1
+    },
+    "CreditCardHistory": {
+      "RequestId": "REQUESTID",
+      "MerchantReferenceCode": "MERCHANTREFERENCECODE",
+      "Status": 100,
+      "MerchantId": "MERCHANTID",
+      "Flag": "0",
+      "Message": "",
+      "DateCreated": "2022-05-31T12:03:29.8706708+05:30",
+      "IPCountry": "UK",
+      "PurchaseType": 1
+    },
+    "ExtraDetails": {
+      "PurchaseOrderNo": "PURCHASEORDERNO",
+      "ClientId": "CLIENTID",
+      "Ref": "REF",
+      "OrderedBy": "ORDEREDBY",
+      "Comments": "COMMENTS",
+      "CustId": "CUSTID",
+      "TransferLicence": "TRANSFERLICENCE"
+    }
+  },
+  "PremiumImageRF": {
+    "Id": "63160fff-b0ed-4f3b-a07b-94a36098a450",
+    "User": {
+      "Id": "B1A71037-7213-43A7-83AB-67DF335028E6",
+      "MarketingOptIn": false,
+      "XForwardedForIP": "192.168.0.1"
+    },
+    "DatePurchased": "2022-05-31T12:03:29.8706708+05:30",
+    "PurchaseType": 0,
+    "Amount": {
+      "Total": 19.99,
+      "Tax": 4,
+      "SubTotal": 23.99,
+      "VatRate": 20
+    },
+    "LanguageCode": 0,
+    "Currency": "GBP",
+    "IsAffiliate": false,
+    "MarketingOptIn": false,
+    "Items": [
+      {
+        "Id": "8dff3a7b-04a7-451d-a56a-ee48e8ca0302",
+        "Price": 19.99,
+        "ProductId": "cad2ba4f-caf1-42dc-86c3-0002f776068f",
+        "LicenseType": 1,
+        "DateAdded": "2022-05-31T12:03:29.8706708+05:30",
+        "ProductType": 0,
+        "LicenseId": "a664be02-794a-449b-a6da-63d7235f3085"
+      }
+    ],
+    "Billing": {
+      "AddressLine1": "ADDRESSLINE1",
+      "AddressLine2": "ADDRESSLINE2",
+      "City": "CITY",
+      "State": "STATE",
+      "PostalCode": "POSTALCODE",
+      "Country": "UNITED KINGDOM",
+      "CountryId": "UK",
+      "Email": "test@alamy.com",
+      "VATRegistrationNo": "VATREGISTRATIONNO",
+      "CreditCard": {
+        "Number": "4111",
+        "Type": "VISA",
+        "ExpiryMonth": "02",
+        "ExpiryYear": "2025"
+      },
+      "PaymentType": 1
+    },
+    "CreditCardHistory": {
+      "RequestId": "REQUESTID",
+      "MerchantReferenceCode": "MERCHANTREFERENCECODE",
+      "Status": 100,
+      "MerchantId": "MERCHANTID",
+      "Flag": "0",
+      "Message": "",
+      "DateCreated": "2022-05-31T12:03:29.8706708+05:30",
+      "IPCountry": "UK",
+      "PurchaseType": 1
+    },
+
+    "ExtraDetails": {
+      "PurchaseOrderNo": "PURCHASEORDERNO",
+      "ClientId": "CLIENTID",
+      "Ref": "REF",
+      "OrderedBy": "ORDEREDBY",
+      "Comments": "COMMENTS",
+      "CustId": "CUSTID",
+      "TransferLicence": "TRANSFERLICENCE"
+    }
+  },
+  "PremiumImageRM": {
+    "Id": "3710efc2-80d2-4e8d-afe6-d5133134b378",
+    "User": {
+      "Id": "B1A71037-7213-43A7-83AB-67DF335028E6",
+      "MarketingOptIn": false,
+      "XForwardedForIP": "192.168.0.1"
+    },
+    "DatePurchased": "2022-05-31T12:03:29.8706708+05:30",
+    "PurchaseType": 0,
+    "Amount": {
+      "Total": 19.99,
+      "Tax": 4,
+      "SubTotal": 23.99,
+      "VatRate": 20
+    },
+    "LanguageCode": 0,
+    "Currency": "GBP",
+    "IsAffiliate": false,
+    "MarketingOptIn": false,
+    "Items": [
+      {
+        "Id": "1d305c05-ef69-4c3c-8a1b-3053361bcb1c",
+        "Price": 19.99,
+        "ProductId": "99561051-128c-4671-be3d-00bc56dac587",
+        "LicenseType": 4,
+        "DateAdded": "2022-05-31T12:03:29.8706708+05:30",
+        "ProductType": 0,
+        "LicenseId": "573b1edc-f841-4e2e-8c34-33e462b5eb39"
+      }
+    ],
+    "Billing": {
+      "AddressLine1": "ADDRESSLINE1",
+      "AddressLine2": "ADDRESSLINE2",
+      "City": "CITY",
+      "State": "STATE",
+      "PostalCode": "POSTALCODE",
+      "Country": "UNITED KINGDOM",
+      "CountryId": "UK",
+      "Email": "test@alamy.com",
+      "VATRegistrationNo": "VATREGISTRATIONNO",
+      "CreditCard": {
+        "Number": "4111",
+        "Type": "VISA",
+        "ExpiryMonth": "02",
+        "ExpiryYear": "2025"
+      },
+      "PaymentType": 1
+    },
+    "CreditCardHistory": {
+      "RequestId": "REQUESTID",
+      "MerchantReferenceCode": "MERCHANTREFERENCECODE",
+      "Status": 100,
+      "MerchantId": "MERCHANTID",
+      "Flag": "0",
+      "Message": "",
+      "DateCreated": "2022-05-31T12:03:29.8706708+05:30",
+      "IPCountry": "UK",
+      "PurchaseType": 1
+    },
+    "ExtraDetails": {
+      "PurchaseOrderNo": "PURCHASEORDERNO",
+      "ClientId": "CLIENTID",
+      "Ref": "REF",
+      "OrderedBy": "ORDEREDBY",
+      "Comments": "COMMENTS",
+      "CustId": "CUSTID",
+      "TransferLicence": "TRANSFERLICENCE"
+    }
+  },
+  "Video": {
+    "Id": "63160fff-b0ed-4f3b-a07b-94a36098a450",
+    "User": {
+      "Id": "B1A71037-7213-43A7-83AB-67DF335028E6",
+      "MarketingOptIn": false,
+      "XForwardedForIP": "192.168.0.1"
+    },
+    "DatePurchased": "2022-05-31T12:03:29.8706708+05:30",
+    "PurchaseType": 0,
+    "Amount": {
+      "Total": 19.99,
+      "Tax": 4,
+      "SubTotal": 23.99,
+      "VatRate": 20
+    },
+    "LanguageCode": 0,
+    "Currency": "GBP",
+    "IsAffiliate": false,
+    "MarketingOptIn": false,
+    "Items": [
+      {
+        "Id": "04263175-aca3-44a7-8e72-457e30c2b363",
+        "Price": 19.99,
+        "ProductId": "784cac00-b066-4313-9ba1-b414a471f7c0",
+        "LicenseType": 1,
+        "DateAdded": "2022-05-31T12:03:29.8706708+05:30",
+        "ProductType": 2,
+        "LicenseId": "573b1edc-f841-4e2e-8c34-33e462b5eb39"
+      }
+    ],
+    "Billing": {
+      "AddressLine1": "ADDRESSLINE1",
+      "AddressLine2": "ADDRESSLINE2",
+      "City": "CITY",
+      "State": "STATE",
+      "PostalCode": "POSTALCODE",
+      "Country": "UNITED KINGDOM",
+      "CountryId": "UK",
+      "Email": "test@alamy.com",
+      "VATRegistrationNo": "VATREGISTRATIONNO",
+      "CreditCard": {
+        "Number": "4111",
+        "Type": "VISA",
+        "ExpiryMonth": "02",
+        "ExpiryYear": "2025"
+      },
+      "PaymentType": 1
+    },
+    "CreditCardHistory": {
+      "RequestId": "REQUESTID",
+      "MerchantReferenceCode": "MERCHANTREFERENCECODE",
+      "Status": 100,
+      "MerchantId": "MERCHANTID",
+      "Flag": "0",
+      "Message": "",
+      "DateCreated": "2022-05-31T12:03:29.8706708+05:30",
+      "IPCountry": "UK",
+      "PurchaseType": 1
+    },
+    "ExtraDetails": {
+      "PurchaseOrderNo": "PURCHASEORDERNO",
+      "ClientId": "CLIENTID",
+      "Ref": "REF",
+      "OrderedBy": "ORDEREDBY",
+      "Comments": "COMMENTS",
+      "CustId": "CUSTID",
+      "TransferLicence": "TRANSFERLICENCE"
+    }
+  }
+}
